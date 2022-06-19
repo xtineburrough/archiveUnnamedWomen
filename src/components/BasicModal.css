@@ -1,0 +1,136 @@
+.modal {
+  background: #fad7a0;
+  width: 50vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 80vh;
+
+  border: 2px solid #000;
+  box-shadow: 2rem;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  outline: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal {
+    width: 80vw;
+  }
+  .image {
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .modal {
+    width: 35vw;
+  }
+}
+
+.masonryImage {
+  background: hotpink;
+  box-shadow: inset 0 0 100px black;
+}
+
+.item {
+  margin: 0.1rem auto;
+  padding: 0;
+  font-size: 0.7rem;
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.item__desc {
+  padding: 0rem;
+  margin: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.quote {
+  padding: 0rem;
+  margin: 0;
+  margin-top: 1rem;
+  padding: 0;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  font: Georgia, serif;
+}
+
+.item__desc--title {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.image {
+  /* display: "block"; */
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 1rem;
+}
+
+.img {
+  /* background: "no-repeat";
+  margin: "auto";
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; */
+
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+.textcontainer {
+  position: relative;
+}
+
+.textcontainer-x-text {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.imageContainer {
+  /* position: relative;
+  text-align: left;
+  color: white; */
+
+  align-items: center;
+  height: 65%;
+  width: 100%;
+  border: 0px solid black;
+  display: grid;
+}
+
+.imageText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-hover-zoom {
+  /* [1.1] Set it as per your need */
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+/* [2] Transition property for smooth transformation of images */
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(1.5);
+}
