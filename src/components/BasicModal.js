@@ -72,14 +72,20 @@ export default function BasicModal({ itemData }) {
             <div className="imageText"></div>
           </div> */}
 
-          <div class="textcontainer image imageContainer img-hover-zoomNO">
-            <img
-              className="img"
+          <div class="textcontainer image imageContainer">
+            <div
+              className="actImg"
+              style={{ backgroundImage: "url(" + imageLink + ")" }}
+              alt={"img"}
+              loading="lazy"
+            />
+            {/* <img
+              className="actImg"
               src={imageLink}
               srcSet={imageLink}
               alt={"img"}
               loading="lazy"
-            />
+            /> */}
           </div>
 
           <Grid container spacing={1}>
