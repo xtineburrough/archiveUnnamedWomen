@@ -1,5 +1,5 @@
 .nav {
-  border-bottom: rgb(255, 255, 255) 0.2rem solid;
+  border-bottom: rgba(109, 102, 99, 255) 0.2rem solid;
   margin-bottom: 0;
 }
 
@@ -8,7 +8,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(41, 40, 40);
+  background-color: rgba(50, 49, 43, 255);
 }
 
 li {
@@ -23,7 +23,7 @@ li a {
   text-decoration: none;
 
   font-family: "Times New Roman", serif;
-  color: rgb(136, 127, 127);
+  color: rgba(149, 147, 145, 255);
   font-size: 1.2rem;
   font-weight: 500;
 }

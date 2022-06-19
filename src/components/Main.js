@@ -33,6 +33,121 @@ export default function Main() {
             <BasicModal itemData={item}></BasicModal>
           </div>
         ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
+        {data.map((item, index) => (
+          <div key={index}>
+            <BasicModal itemData={item}></BasicModal>
+          </div>
+        ))}
       </Masonry>
     </>
   );
