@@ -35,7 +35,7 @@ export default function BasicModal({ itemData }) {
   let linkData = data.map((women) => <p>{women.imgLink}</p>);
 
   return (
-    <div className="img-hover-zoom">
+    <div className="img-hover-zoomNO">
       <img
         className="masonryImage"
         onClick={() => handleOpen(itemData)}
@@ -72,7 +72,7 @@ export default function BasicModal({ itemData }) {
             <div className="imageText"></div>
           </div> */}
 
-          <div class="textcontainer image imageContainer img-hover-zoom">
+          <div class="textcontainer image imageContainer img-hover-zoomNO">
             <img
               className="img"
               src={imageLink}
