@@ -1,9 +1,14 @@
+.nav {
+  border-bottom: rgb(255, 255, 255) 0.2rem solid;
+  margin-bottom: 0;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(41, 40, 40);
 }
 
 li {
@@ -16,6 +21,11 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
+  font-family: "Times New Roman", serif;
+  color: rgb(136, 127, 127);
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 li a:hover:not(.active) {
@@ -23,5 +33,5 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #04aa6d;
+  background-color: #303533;
 }
