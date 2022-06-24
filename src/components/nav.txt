@@ -105,7 +105,7 @@ nav ul {
 nav ul li {
   margin: 0px;
   display: inline-block;
-
+  float: left;
   background-color: rgba(50, 49, 43, 255);
 }
 
@@ -182,10 +182,6 @@ li > a:only-child:after {
 
   nav {
     margin: 0;
-  }
-
-  nav ul {
-    float: left;
   }
 
   /* Hide the navigation menu by default */

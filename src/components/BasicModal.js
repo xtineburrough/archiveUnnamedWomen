@@ -61,6 +61,9 @@ export default function BasicModal({ itemData }) {
         className="hello"
       >
         <Box className="modal">
+          <button className="boxButton" onClick={() => handleClose(itemData)}>
+            X
+          </button>
           {/* <div className="image imageContainer ">
             <img
               className="img"

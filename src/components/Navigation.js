@@ -2,23 +2,48 @@ import "./Navigation.css";
 
 export default function Navigation() {
   return (
-    <div className="nav">
-      <ul>
-        <li>
-          <a href="#">
-            An Archive of <span style={{ color: "white" }}>Unnamed</span> Women
-          </a>
-        </li>
+    <nav>
+      <div id="logo">
+        {" "}
+        An Archive of <span style={{ color: "white" }}>Unnamed</span> Women
+      </div>
 
-        <li style={{ float: "right" }}>
-          <a href="#contact">All Collection</a>
+      <label for="drop" class="toggle">
+        Menu
+      </label>
+      <input type="checkbox" id="drop" />
+      <ul class="menu">
+        <li>
+          <a href="#">Home</a>
         </li>
-        <li style={{ float: "right" }}>
-          <a className="active" href="#about">
-            Home
-          </a>
+        <li>
+          <label for="drop-1" class="toggle">
+            All Collections +
+          </label>
+          <a href="#">All Collections</a>
+          <input type="checkbox" id="drop-1" />
+          <ul>
+            <li>
+              <a href="#">Collection #1</a>
+            </li>
+            <li>
+              <a href="#">Collection #2</a>
+            </li>
+            <li>
+              <a href="#">Collection #3</a>
+            </li>
+          </ul>
+        </li>
+        {/* <li>
+          <label for="drop-2" class="toggle">
+            Web Design +
+          </label>
+          <a href="#">Web Design</a>
+        </li> */}
+        <li>
+          <a href="#">About</a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }
