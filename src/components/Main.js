@@ -1,12 +1,8 @@
-import { useState } from "react";
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
 import Masonry from "@mui/lab/Masonry";
 import { styled } from "@mui/material/styles";
 import BasicModal from "./BasicModal";
-
-// Importing Data under the name "BasicData"
-import { data as BasicData } from "./Collections/BasicData";
 
 import "./Main.css";
 
@@ -20,22 +16,7 @@ const Label = styled(Paper)(({ theme }) => ({
   borderBottomRightRadius: 0,
 }));
 
-export default function Main() {
-  // This is "React Hook" called "useState"
-  // currentCollection = current VALUE stored, NEVER CHANGE THIS VALUE DIRECTLY
-  // setCurrentCollection = function to change "currentCollection"
-  // useState("Basic") = setting the default value
-  const [currentCollection, setCurrentCollection] = useState(BasicData);
-
-  var changeCollection = (collectionName) => {
-    if (collectionName == "Basic") {
-      setCurrentCollection(BasicData);
-    } else {
-      // Collection does not exist, set a default collection to show
-      setCurrentCollection(BasicData);
-    }
-  };
-
+export default function Main({ currentCollection }) {
   // Masonry is a component from the MaterialUI Library
   return (
     <>

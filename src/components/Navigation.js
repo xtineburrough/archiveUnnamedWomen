@@ -1,6 +1,6 @@
 import "./Navigation.css";
 
-export default function Navigation() {
+export default function Navigation({ listOfCollections, changeCollection }) {
   return (
     <nav>
       <div id="logo">
@@ -23,7 +23,14 @@ export default function Navigation() {
           <a href="#">All Collections</a>
           <input type="checkbox" id="drop-1" />
           <ul>
-            <li>
+            {listOfCollections.map((collectionName, idx) => (
+              <li key={idx}>
+                <a href="#" onClick={() => changeCollection(collectionName)}>
+                  {collectionName}
+                </a>
+              </li>
+            ))}
+            {/* <li>
               <a href="#">Collection #1</a>
             </li>
             <li>
@@ -31,7 +38,7 @@ export default function Navigation() {
             </li>
             <li>
               <a href="#">Collection #3</a>
-            </li>
+            </li> */}
           </ul>
         </li>
         {/* <li>
