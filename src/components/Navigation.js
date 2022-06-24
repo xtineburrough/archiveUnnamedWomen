@@ -8,16 +8,16 @@ export default function Navigation() {
         An Archive of <span style={{ color: "white" }}>Unnamed</span> Women
       </div>
 
-      <label for="drop" class="toggle">
+      <label htmlFor="drop" className="toggle">
         Menu
       </label>
       <input type="checkbox" id="drop" />
-      <ul class="menu">
+      <ul className="menu">
         <li>
           <a href="#">Home</a>
         </li>
         <li>
-          <label for="drop-1" class="toggle">
+          <label htmlFor="drop-1" className="toggle">
             All Collections +
           </label>
           <a href="#">All Collections</a>
@@ -35,7 +35,7 @@ export default function Navigation() {
           </ul>
         </li>
         {/* <li>
-          <label for="drop-2" class="toggle">
+          <label htmlFor="drop-2" className="toggle">
             Web Design +
           </label>
           <a href="#">Web Design</a>

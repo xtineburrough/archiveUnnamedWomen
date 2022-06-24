@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 
 import { Grid } from "@mui/material";
-import { data } from "./BasicData";
+import { data } from "./Collections/BasicData";
 import { quoteData } from "./Quote";
 
 import "./BasicModal.css";
