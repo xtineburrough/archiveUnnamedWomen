@@ -33,6 +33,7 @@ function App() {
     "Basic Collection": { data: BasicData },
     "Car Collection": { data: CarData },
   };
+  // function to warn you if listOfCollections does not match collection
   listOfCollections.map((collectionName) => {
     if (!collection[collectionName]) {
       console.error(
@@ -44,6 +45,7 @@ function App() {
   // currentCollection = current VALUE stored, NEVER CHANGE THIS VALUE DIRECTLY
   // setCurrentCollection = function to change "currentCollection"
   // useState("Basic") = setting the default value
+  // const [variableName, functionName to change variable] = useState(defaultValue)
   const [currentCollection, setCurrentCollection] = useState(BasicData);
 
   var changeCollection = (collectionName) => {

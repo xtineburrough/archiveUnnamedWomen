@@ -22,6 +22,8 @@ nav {
   border-bottom: rgba(109, 102, 99, 255) 0.2rem solid;
   margin-bottom: 0;
   line-height: 32px;
+  position: fixed;
+  width: 100%;
 }
 
 #logo {

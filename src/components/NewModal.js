@@ -6,9 +6,9 @@ import { Grid } from "@mui/material";
 import { data } from "./Collections/BasicData";
 import { quoteData } from "./Quote";
 
-import "./BasicModal.css";
+import "./NewModal.css";
 
-export default function BasicModal({ itemData }) {
+export default function NewModal({ itemData }) {
   // States
   const [open, setOpen] = useState(false);
   const [imageLink, setImageLink] = useState(
@@ -21,6 +21,10 @@ export default function BasicModal({ itemData }) {
   const [NYPL, setNYPL] = useState("N/A");
   const [quote, setQuote] = useState("");
 
+  const changeQuote = () => {
+    setQuote(quoteData[Math.floor(Math.random() * quoteData.length)].quote);
+  };
+
   const handleOpen = (itemData) => {
     setOpen(true);
     setImageLink(itemData.imgLink);
@@ -28,7 +32,7 @@ export default function BasicModal({ itemData }) {
     setPhotographer(itemData.photographer);
     setNYPL(itemData.nypl);
     setYear(itemData.year);
-    setQuote(quoteData[Math.floor(Math.random() * quoteData.length)].quote);
+    changeQuote();
   };
   const handleClose = () => setOpen(false);
 
@@ -61,9 +65,9 @@ export default function BasicModal({ itemData }) {
         className="hello"
       >
         <Box className="modal">
-          <button className="boxButton" onClick={() => handleClose(itemData)}>
+          {/* <button className="boxButton" onClick={() => handleClose(itemData)}>
             X
-          </button>
+          </button> */}
           {/* <div className="image imageContainer ">
             <img
               className="img"
@@ -74,14 +78,29 @@ export default function BasicModal({ itemData }) {
             />
             <div className="imageText"></div>
           </div> */}
-
-          <div className="textcontainer image imageContainer">
-            <div
+          <div className="card">
+            <img
+              src={imageLink}
+              // style={{
+              //   height: "100%",
+              // }}
+            />
+            <div className="bottom-left">{quote}</div>
+            {/* <div className="container">
+              <h4>
+                <b>John Doe</b>
+              </h4>
+              <p>Architect & Engineer</p>
+            </div> */}
+          </div>
+          <div className="atextcontainer aimage aimageContainer">
+            {/* <div
               className="actImg"
               style={{ backgroundImage: "url(" + imageLink + ")" }}
               alt={"img"}
               loading="lazy"
-            />
+            /> */}
+
             {/* <img
               className="actImg"
               src={imageLink}
@@ -90,13 +109,7 @@ export default function BasicModal({ itemData }) {
               loading="lazy"
             /> */}
           </div>
-
           <Grid container spacing={1}>
-            <Grid item xs={12}>
-              <div className="item">
-                <p className="quote">{quote}</p>
-              </div>
-            </Grid>
             <Grid item xs={12}>
               <div className="item">
                 <p className="item__desc--title">DESCRIPTION</p>
@@ -128,8 +141,26 @@ export default function BasicModal({ itemData }) {
                 <p className="item__desc right">{NYPL}</p>
               </div>
             </Grid>
+            <Grid item xs={6}>
+              <button className="button" onClick={() => changeQuote()}>
+                Change Quote
+              </button>
+            </Grid>
+            <Grid item xs={6}>
+              <button className="button" onClick={() => handleClose()}>
+                Close
+              </button>
+            </Grid>
+            <Grid item xs={12}>
+              <a
+                href="https://www.google.com/"
+                target="_blank"
+                className="button"
+              >
+                Identify
+              </a>
+            </Grid>
           </Grid>
-
           {/* <Typography id="modal-modal-title" variant="h6" component="h2">
             Text in a modal
           </Typography>
