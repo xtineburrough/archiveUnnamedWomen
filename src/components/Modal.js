@@ -3,12 +3,10 @@ import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 
 import { Grid } from "@mui/material";
-import { data } from "./Collections/BasicData";
-import { quoteData } from "./Quote";
 
-import "./NewModal.css";
+import "./Modal.css";
 
-export default function NewModal({ itemData }) {
+export default function NewModal({ itemData, quoteList }) {
   // States
   const [open, setOpen] = useState(false);
   const [imageLink, setImageLink] = useState(
@@ -22,7 +20,7 @@ export default function NewModal({ itemData }) {
   const [quote, setQuote] = useState("");
 
   const changeQuote = () => {
-    setQuote(quoteData[Math.floor(Math.random() * quoteData.length)].quote);
+    setQuote(quoteList[Math.floor(Math.random() * quoteList.length)].quote);
   };
 
   const handleOpen = (itemData) => {
@@ -36,10 +34,8 @@ export default function NewModal({ itemData }) {
   };
   const handleClose = () => setOpen(false);
 
-  let linkData = data.map((women) => <p>{women.imageLink}</p>);
-
   return (
-    <div className="img-hover-zoomNO">
+    <div>
       <img
         className="masonryImage"
         onClick={() => handleOpen(itemData)}
@@ -56,7 +52,6 @@ export default function NewModal({ itemData }) {
         }}
       ></img>
 
-      {/* <Button onClick={handleOpen}>Open modal</Button> */}
       <Modal
         open={open}
         onClose={handleClose}
@@ -65,50 +60,11 @@ export default function NewModal({ itemData }) {
         className="hello"
       >
         <Box className="modal">
-          {/* <button className="boxButton" onClick={() => handleClose(itemData)}>
-            X
-          </button> */}
-          {/* <div className="image imageContainer ">
-            <img
-              className="img"
-              src={imageLink}
-              srcSet={imageLink}
-              alt={"img"}
-              loading="lazy"
-            />
-            <div className="imageText"></div>
-          </div> */}
           <div className="card">
-            <img
-              src={imageLink}
-              // style={{
-              //   height: "100%",
-              // }}
-            />
+            <img src={imageLink} />
             <div className="bottom-left">{quote}</div>
-            {/* <div className="container">
-              <h4>
-                <b>John Doe</b>
-              </h4>
-              <p>Architect & Engineer</p>
-            </div> */}
           </div>
-          <div className="atextcontainer aimage aimageContainer">
-            {/* <div
-              className="actImg"
-              style={{ backgroundImage: "url(" + imageLink + ")" }}
-              alt={"img"}
-              loading="lazy"
-            /> */}
-
-            {/* <img
-              className="actImg"
-              src={imageLink}
-              srcSet={imageLink}
-              alt={"img"}
-              loading="lazy"
-            /> */}
-          </div>
+          <div></div>
           <Grid container spacing={1}>
             <Grid item xs={12}>
               <div className="item">
@@ -147,7 +103,6 @@ export default function NewModal({ itemData }) {
               </button>
             </Grid>
             <Grid item xs={6}>
-              {" "}
               <a
                 href="https://www.google.com/"
                 target="_blank"
@@ -162,12 +117,6 @@ export default function NewModal({ itemData }) {
               </button>
             </Grid>
           </Grid>
-          {/* <Typography id="modal-modal-title" variant="h6" component="h2">
-            Text in a modal
-          </Typography>
-          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-          </Typography> */}
         </Box>
       </Modal>
     </div>

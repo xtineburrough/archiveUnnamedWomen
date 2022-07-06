@@ -13,9 +13,11 @@ import About from "./components/About";
 import { data as BasicData } from "./components/Collections/BasicData";
 import { data as FoodData } from "./components/Collections/FoodData";
 import { data as CarData } from "./components/Collections/CarData";
+import { data as NEW_DATA_NAME } from "./components/Collections/NEW_DATA_NAME";
 
-const DEFAULT_COUNT = 10;
-
+// Quote Data
+import { quoteData as BasicQuote } from "./components/Quotes/BasicQuote";
+import { quoteData as NewQuote } from "./components/Quotes/NewQuote";
 // THIS IS WHERE THE "important stuff" STARTS
 // Navigation is Loaded from here
 // Main is loaded from here
@@ -30,12 +32,14 @@ function App() {
     "Basic Collection",
     "Food Collection",
     "Car Collection",
+    "New Collection Name",
   ];
 
   const collection = {
-    "Food Collection": { data: FoodData },
-    "Basic Collection": { data: BasicData },
-    "Car Collection": { data: CarData },
+    "Food Collection": { data: FoodData, quoteData: BasicQuote },
+    "Basic Collection": { data: BasicData, quoteData: BasicQuote },
+    "Car Collection": { data: CarData, quoteData: BasicQuote },
+    "New Collection Name": { data: NEW_DATA_NAME, quoteData: NewQuote },
   };
   // function to warn you if listOfCollections does not match collection
   listOfCollections.map((collectionName) => {
@@ -51,22 +55,28 @@ function App() {
   // useState("Basic") = setting the default value
   // const [variableName, functionName to change variable] = useState(defaultValue)
   const [currentCollection, setCurrentCollection] = useState(BasicData);
+  const [quoteList, setQuoteList] = useState(BasicQuote);
 
   const [count, setCount] = useState(5);
 
   var changeCollection = (collectionName) => {
     if (collectionName == "About") {
       setCurrentCollection("About");
-      setCount(DEFAULT_COUNT);
+
       return;
     }
     if (collection[collectionName]) {
       setCurrentCollection(collection[collectionName].data);
-      setCount(DEFAULT_COUNT);
     } else {
       // Collection does not exist, set a default collection to show
       setCurrentCollection(BasicData);
-      setCount(DEFAULT_COUNT);
+    }
+
+    if (collection[collectionName]) {
+      setQuoteList(collection[collectionName].quoteData);
+    } else {
+      // Quote does not exist, set a default quote list to show
+      setQuoteList(BasicQuote);
     }
   };
   return (
@@ -82,6 +92,7 @@ function App() {
         ) : (
           <Main
             currentCollection={currentCollection}
+            quoteList={quoteList}
             setCount={setCount}
             count={count}
           />

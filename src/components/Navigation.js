@@ -14,7 +14,10 @@ export default function Navigation({ listOfCollections, changeCollection }) {
       <input type="checkbox" id="drop" />
       <ul className="menu">
         <li>
-          <a href="#" onClick={() => changeCollection()}>
+          <a
+            href="http://www.visiblewomen.net/unnamed-women/index.html"
+            onClick={() => changeCollection()}
+          >
             Home
           </a>
         </li>
@@ -22,7 +25,7 @@ export default function Navigation({ listOfCollections, changeCollection }) {
           <label htmlFor="drop-1" className="toggle">
             All Collections +
           </label>
-          <a href="#">All Collections</a>
+          <a>All Collections</a>
           <input type="checkbox" id="drop-1" />
           <ul>
             {listOfCollections.map((collectionName, idx) => (
@@ -50,9 +53,7 @@ export default function Navigation({ listOfCollections, changeCollection }) {
           <a href="#">Web Design</a>
         </li> */}
         <li>
-          <a href="#" onClick={() => changeCollection("About")}>
-            About
-          </a>
+          <a onClick={() => changeCollection("About")}>About</a>
         </li>
       </ul>
     </nav>

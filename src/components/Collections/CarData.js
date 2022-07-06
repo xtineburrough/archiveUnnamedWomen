@@ -2,7 +2,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -26,7 +26,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -50,7 +50,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -74,7 +74,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -98,7 +98,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -122,7 +122,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -146,7 +146,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -170,7 +170,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -194,7 +194,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -218,7 +218,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -242,7 +242,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -266,7 +266,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -290,7 +290,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -314,7 +314,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -338,7 +338,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -362,7 +362,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -386,7 +386,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -410,7 +410,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -434,7 +434,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -458,7 +458,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -482,7 +482,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -506,7 +506,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -530,7 +530,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -554,7 +554,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -578,7 +578,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -602,7 +602,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -626,7 +626,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -650,7 +650,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -674,7 +674,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -698,7 +698,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -722,7 +722,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -746,7 +746,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -770,7 +770,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -794,7 +794,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -818,7 +818,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -842,7 +842,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -866,7 +866,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -890,7 +890,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -914,7 +914,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -938,7 +938,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -962,7 +962,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -986,7 +986,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1010,7 +1010,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1034,7 +1034,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1058,7 +1058,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1082,7 +1082,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1106,7 +1106,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1130,7 +1130,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1154,7 +1154,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1178,7 +1178,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1202,7 +1202,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1226,7 +1226,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1250,7 +1250,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1274,7 +1274,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1298,7 +1298,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1322,7 +1322,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1346,7 +1346,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1370,7 +1370,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1394,7 +1394,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1418,7 +1418,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1442,7 +1442,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,
@@ -1466,7 +1466,7 @@ export let data = [
   {
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
-    imgLink:
+    imageLink:
       "https://static01.nyt.com/images/2022/06/16/business/16ford-recalls/16ford-recalls-jumbo.jpg?quality=75&auto=webp",
     collection: "Schomburg Center for Research in Black Culture",
     nypl: 1260019,

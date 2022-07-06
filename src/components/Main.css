@@ -1,21 +1,3 @@
-.test {
-  width: 100%;
-
-  margin-top: 5rem;
-}
-.showButton {
-  background-color: #606160;
-  border: none;
-  color: white;
-  padding: 0.3rem 1rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 2rem;
-  width: 100%;
-  cursor: pointer;
-}
-
 .my-masonry-grid {
   display: -webkit-box; /* Not needed if autoprefixing */
   display: -ms-flexbox; /* Not needed if autoprefixing */
