@@ -1,6 +1,6 @@
 import Box from "@mui/material/Box";
 import Paper from "@mui/material/Paper";
-import Masonry from "react-masonry-css";
+import Masonry from "@mui/lab/Masonry";
 import { styled } from "@mui/material/styles";
 import BasicModal from "./BasicModal";
 import NewModal from "./NewModal";
@@ -59,18 +59,11 @@ export default function Main({
 
     return content;
   };
-  const breakpointColumnsObj = {
-    default: 4,
-    1100: 3,
-    700: 2,
-    500: 1,
-  };
   return (
     <>
       <Masonry
-        breakpointCols={breakpointColumnsObj}
-        className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column"
+        columns={{ xs: 2, sm: 4 }}
+        spacing={0}
         style={{
           margin: 0,
           width: "100%",
@@ -82,6 +75,7 @@ export default function Main({
           </div>
         ))} */}
         {showCollection(currentCollection)}
+
         {/* {comp(currentCollection)} */}
       </Masonry>
       {/* <button className="showButton" onClick={() => setCount(count + 10)}>
