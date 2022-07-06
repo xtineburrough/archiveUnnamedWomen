@@ -30,7 +30,7 @@
 }
 
 .masonryImage {
-  background: hotpink;
+  background: rgba(67, 67, 67, 0.381);
   box-shadow: inset 0 0 100px black;
   cursor: pointer;
 }
