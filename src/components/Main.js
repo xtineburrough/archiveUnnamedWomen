@@ -57,17 +57,17 @@ export default function Main({
           width: "100%",
         }}
       >
-        {/* {currentCollection.map((item, index) => (
+        {currentCollection.map((item, index) => (
           <div key={index}>
             <NewModal itemData={item} />
           </div>
-        ))} */}
+        ))}
 
-        {comp(currentCollection)}
+        {/* {comp(currentCollection)} */}
       </Masonry>
-      <button className="showButton" onClick={() => setCount(count + 10)}>
+      {/* <button className="showButton" onClick={() => setCount(count + 10)}>
         Show more
-      </button>
+      </button> */}
     </>
   );
 }
