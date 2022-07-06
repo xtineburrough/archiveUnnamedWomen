@@ -30,6 +30,18 @@ export default function Main({
   //     text += cars[i] + "<br>";
   //   }
   // };
+
+  let showCollection = () => {
+    let content = [];
+    currentCollection.map((item, index) =>
+      content.push(
+        <div key={index}>
+          <NewModal itemData={item} />
+        </div>
+      )
+    );
+    return content;
+  };
   let comp = (col) => {
     let content = [];
     console.log(count);
@@ -57,11 +69,12 @@ export default function Main({
           width: "100%",
         }}
       >
-        {currentCollection.map((item, index) => (
+        {/* {currentCollection.map((item, index) => (
           <div key={index}>
             <NewModal itemData={item} />
           </div>
-        ))}
+        ))} */}
+        {showCollection(currentCollection)}
 
         {/* {comp(currentCollection)} */}
       </Masonry>
