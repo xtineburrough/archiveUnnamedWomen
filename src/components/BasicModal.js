@@ -23,7 +23,7 @@ export default function BasicModal({ itemData }) {
 
   const handleOpen = (itemData) => {
     setOpen(true);
-    setImageLink(itemData.imgLink);
+    setImageLink(itemData.imageLink);
     setDescription(itemData.description);
     setPhotographer(itemData.photographer);
     setNYPL(itemData.nypl);
@@ -32,16 +32,16 @@ export default function BasicModal({ itemData }) {
   };
   const handleClose = () => setOpen(false);
 
-  let linkData = data.map((women) => <p>{women.imgLink}</p>);
+  let linkData = data.map((women) => <p>{women.imageLink}</p>);
 
   return (
     <div className="img-hover-zoomNO">
       <img
         className="masonryImage"
         onClick={() => handleOpen(itemData)}
-        src={`${itemData.imgLink}`}
-        srcSet={`${itemData.imgLink}`}
-        backgroundimage={itemData.imgLink}
+        src={`${itemData.imageLink}`}
+        srcSet={`${itemData.imageLink}`}
+        backgroundimage={itemData.imageLink}
         alt={"test"}
         loading="lazy"
         style={{

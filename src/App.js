@@ -6,6 +6,8 @@ import "./App.css";
 import Navigation from "./components/Navigation";
 // Import Main Component
 import Main from "./components/Main";
+//Import About Component
+import About from "./components/About";
 
 // Importing Data under the name "BasicData"
 import { data as BasicData } from "./components/Collections/BasicData";
@@ -49,6 +51,10 @@ function App() {
   const [currentCollection, setCurrentCollection] = useState(BasicData);
 
   var changeCollection = (collectionName) => {
+    if (collectionName == "About") {
+      setCurrentCollection("About");
+      return;
+    }
     if (collection[collectionName]) {
       setCurrentCollection(collection[collectionName].data);
     } else {
@@ -62,8 +68,13 @@ function App() {
         listOfCollections={listOfCollections}
         changeCollection={changeCollection}
       />
+      <div className="marginUp"></div>
       <div className="App">
-        <Main currentCollection={currentCollection} />
+        {currentCollection == "About" ? (
+          <About />
+        ) : (
+          <Main currentCollection={currentCollection} />
+        )}
       </div>
     </div>
   );

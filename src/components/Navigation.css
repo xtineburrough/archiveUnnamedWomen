@@ -16,14 +16,21 @@
 /* Giving a background-color to the nav container. */
 nav {
   margin: 0;
+  top: 0;
+
   padding: 0;
   background-color: rgba(50, 49, 43, 255);
 
   border-bottom: rgba(109, 102, 99, 255) 0.2rem solid;
   margin-bottom: 0;
-  line-height: 32px;
+  line-height: 2rem;
   position: fixed;
   width: 100%;
+}
+@media print {
+  .nav {
+    display: none;
+  }
 }
 
 #logo {

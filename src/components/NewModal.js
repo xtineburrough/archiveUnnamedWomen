@@ -27,7 +27,7 @@ export default function NewModal({ itemData }) {
 
   const handleOpen = (itemData) => {
     setOpen(true);
-    setImageLink(itemData.imgLink);
+    setImageLink(itemData.imageLink);
     setDescription(itemData.description);
     setPhotographer(itemData.photographer);
     setNYPL(itemData.nypl);
@@ -36,18 +36,18 @@ export default function NewModal({ itemData }) {
   };
   const handleClose = () => setOpen(false);
 
-  let linkData = data.map((women) => <p>{women.imgLink}</p>);
+  let linkData = data.map((women) => <p>{women.imageLink}</p>);
 
   return (
     <div className="img-hover-zoomNO">
       <img
         className="masonryImage"
         onClick={() => handleOpen(itemData)}
-        src={`${itemData.imgLink}`}
-        srcSet={`${itemData.imgLink}`}
-        backgroundimage={itemData.imgLink}
+        src={`${itemData.imageLink}`}
+        srcSet={`${itemData.imageLink}`}
+        backgroundimage={itemData.imageLink}
         alt={"test"}
-        loading="lazy"
+        // loading="lazy"
         style={{
           borderBottomLeftRadius: 4,
           borderBottomRightRadius: 4,
@@ -147,11 +147,7 @@ export default function NewModal({ itemData }) {
               </button>
             </Grid>
             <Grid item xs={6}>
-              <button className="button" onClick={() => handleClose()}>
-                Close
-              </button>
-            </Grid>
-            <Grid item xs={12}>
+              {" "}
               <a
                 href="https://www.google.com/"
                 target="_blank"
@@ -159,6 +155,11 @@ export default function NewModal({ itemData }) {
               >
                 Identify
               </a>
+            </Grid>
+            <Grid item xs={12}>
+              <button className="button close" onClick={() => handleClose()}>
+                Close
+              </button>
             </Grid>
           </Grid>
           {/* <Typography id="modal-modal-title" variant="h6" component="h2">

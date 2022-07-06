@@ -21,7 +21,7 @@ export default function Main({ currentCollection }) {
   // Masonry is a component from the MaterialUI Library
   return (
     <>
-      <Masonry columns={{ xs: 2, sm: 4 }} spacing={0} className="test">
+      <Masonry columns={{ xs: 2, sm: 4 }} spacing={0}>
         {currentCollection.map((item, index) => (
           <div key={index}>
             <NewModal itemData={item} />

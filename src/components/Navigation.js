@@ -14,7 +14,9 @@ export default function Navigation({ listOfCollections, changeCollection }) {
       <input type="checkbox" id="drop" />
       <ul className="menu">
         <li>
-          <a href="#">Home</a>
+          <a href="#" onClick={() => changeCollection()}>
+            Home
+          </a>
         </li>
         <li>
           <label htmlFor="drop-1" className="toggle">
@@ -48,7 +50,9 @@ export default function Navigation({ listOfCollections, changeCollection }) {
           <a href="#">Web Design</a>
         </li> */}
         <li>
-          <a href="#">About</a>
+          <a href="#" onClick={() => changeCollection("About")}>
+            About
+          </a>
         </li>
       </ul>
     </nav>
