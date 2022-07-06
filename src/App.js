@@ -14,6 +14,8 @@ import { data as BasicData } from "./components/Collections/BasicData";
 import { data as FoodData } from "./components/Collections/FoodData";
 import { data as CarData } from "./components/Collections/CarData";
 
+const DEFAULT_COUNT = 10;
+
 // THIS IS WHERE THE "important stuff" STARTS
 // Navigation is Loaded from here
 // Main is loaded from here
@@ -50,16 +52,21 @@ function App() {
   // const [variableName, functionName to change variable] = useState(defaultValue)
   const [currentCollection, setCurrentCollection] = useState(BasicData);
 
+  const [count, setCount] = useState(5);
+
   var changeCollection = (collectionName) => {
     if (collectionName == "About") {
       setCurrentCollection("About");
+      setCount(DEFAULT_COUNT);
       return;
     }
     if (collection[collectionName]) {
       setCurrentCollection(collection[collectionName].data);
+      setCount(DEFAULT_COUNT);
     } else {
       // Collection does not exist, set a default collection to show
       setCurrentCollection(BasicData);
+      setCount(DEFAULT_COUNT);
     }
   };
   return (
@@ -73,7 +80,11 @@ function App() {
         {currentCollection == "About" ? (
           <About />
         ) : (
-          <Main currentCollection={currentCollection} />
+          <Main
+            currentCollection={currentCollection}
+            setCount={setCount}
+            count={count}
+          />
         )}
       </div>
     </div>

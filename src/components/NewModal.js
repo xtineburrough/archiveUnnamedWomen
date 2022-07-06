@@ -47,7 +47,7 @@ export default function NewModal({ itemData }) {
         srcSet={`${itemData.imageLink}`}
         backgroundimage={itemData.imageLink}
         alt={"test"}
-        loading="lazy"
+        // loading="lazy"
         style={{
           borderBottomLeftRadius: 4,
           borderBottomRightRadius: 4,
