@@ -5,7 +5,7 @@ import NewModal from "./Modal";
 import "./Main.css";
 
 export default function Main({ currentCollection, quoteList }) {
-  let showCollection = () => {
+  let showCollection = (currentCollection) => {
     let content = [];
     currentCollection.map((item, index) =>
       content.push(
