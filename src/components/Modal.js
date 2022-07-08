@@ -43,7 +43,7 @@ export default function NewModal({ itemData, quoteList }) {
         srcSet={`${itemData.imageLink}`}
         backgroundimage={itemData.imageLink}
         alt={"test"}
-        loading="lazy"
+        loading=""
         style={{
           borderBottomLeftRadius: 4,
           borderBottomRightRadius: 4,

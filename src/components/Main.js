@@ -1,6 +1,6 @@
 import Masonry from "react-masonry-css";
 
-import NewModal from "./Modal";
+import NewModal from "./AlModal";
 
 import "./Main.css";
 

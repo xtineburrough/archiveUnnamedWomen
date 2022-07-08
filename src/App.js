@@ -82,11 +82,12 @@ function App() {
   return (
     <div>
       <Navigation
+        className="noPrint"
         listOfCollections={listOfCollections}
         changeCollection={changeCollection}
       />
       <div className="marginUp"></div>
-      <div className="App">
+      <div className="App noPrint">
         {currentCollection == "About" ? (
           <About />
         ) : (
