@@ -96,10 +96,8 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
                   <Grid
                     item
                     xs={12}
-                    spacing={0}
                     columnSpacing={{ xs: 0 }}
                     alignItems="flex-start"
-                    direction="row"
                   >
                     <Box
                       sx={{
@@ -114,7 +112,7 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
                     >
                       <div className="item ">
                         <p className="item__desc--title left">LOCATION</p>
-                        <p className="item__desc left">Dallas, TX</p>
+                        <p className="item__desc left">{location}</p>
                       </div>
                       <div className="item ">
                         <p className="item__desc--title">PHOTOGRAPHER</p>
