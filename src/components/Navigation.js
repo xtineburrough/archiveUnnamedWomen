@@ -24,7 +24,7 @@ export default function Navigation({ listOfCollections, changeCollection }) {
           <ul>
             {listOfCollections.map((collectionName, idx) => (
               <li key={idx}>
-                <a href="#" onClick={() => changeCollection(collectionName)}>
+                <a onClick={() => changeCollection(collectionName)}>
                   {collectionName}
                 </a>
               </li>
