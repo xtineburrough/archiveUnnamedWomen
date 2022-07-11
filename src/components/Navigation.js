@@ -4,7 +4,6 @@ export default function Navigation({ listOfCollections, changeCollection }) {
   return (
     <nav>
       <div id="logo">
-        {" "}
         An Archive of <span style={{ color: "white" }}>Unnamed</span> Women
       </div>
 
@@ -30,23 +29,8 @@ export default function Navigation({ listOfCollections, changeCollection }) {
                 </a>
               </li>
             ))}
-            {/* <li>
-              <a href="#">Collection #1</a>
-            </li>
-            <li>
-              <a href="#">Collection #2</a>
-            </li>
-            <li>
-              <a href="#">Collection #3</a>
-            </li> */}
           </ul>
         </li>
-        {/* <li>
-          <label htmlFor="drop-2" className="toggle">
-            Web Design +
-          </label>
-          <a href="#">Web Design</a>
-        </li> */}
       </ul>
     </nav>
   );

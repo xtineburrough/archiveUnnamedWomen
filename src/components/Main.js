@@ -8,8 +8,6 @@ export default function Main({ currentCollection, quoteList, collectionName }) {
   let showCollection = (currentCollection) => {
     let content = [];
     currentCollection.map((itemData, index) =>
-      // Check if Image Exist
-
       content.push(
         <div key={index}>
           <NewModal

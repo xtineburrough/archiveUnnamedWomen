@@ -11,9 +11,6 @@ import "./styles/Print.css";
 export default function NewModal({ itemData, quoteList, collectionName }) {
   // States
   const [open, setOpen] = useState(false);
-  const [imageLink, setImageLink] = useState(
-    "https://images.nypl.org/index.php?id=1206642&t=w"
-  );
   const [description, setDescription] = useState("N/A");
   const [location, setLocation] = useState("N/A");
   const [photographer, setPhotographer] = useState("N/A");
@@ -22,13 +19,11 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
   const [quote, setQuote] = useState("");
 
   const changeQuote = () => {
-    console.log("changing");
     setQuote(quoteList[Math.floor(Math.random() * quoteList.length)].quote);
   };
 
   const handleOpen = (itemData) => {
     setOpen(true);
-    setImageLink(itemData.imageLink);
     setDescription(itemData.description);
     setPhotographer(itemData.photographer);
     setNYPL(itemData.nypl);
@@ -42,12 +37,7 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
       <img
         className="masonryImage"
         onClick={() => handleOpen(itemData)}
-        // src={`${itemData.imageLink}`}
         src={`./CollectionImages/${collectionName}/${itemData.nypl}.png`}
-        // srcSet={`${itemData.imageLink}`}
-        // backgroundimage={itemData.imageLink}
-        alt={"test"}
-        loading=""
         style={{
           borderBottomLeftRadius: 4,
           borderBottomRightRadius: 4,
@@ -64,16 +54,13 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
         className=""
       >
         <Box className="modal">
-          <div className="auser-match-container modal-content">
+          <div className="modal-content">
             <div className="image-quote">
               <div className="modal-left">
                 <img
                   id="modal-image"
                   src={`./CollectionImages/${collectionName}/${itemData.nypl}.png`}
                 />
-                {/* <p className="test123">
-                  asdhlkashdlkashdlkahsdlkhasdasgjgjgjkgjlkgjdhlkashdlkashdlkahkahsdlkhasd
-                </p> */}
               </div>
               <div className="modal-right">
                 <div id="quote-container" className="quote">
@@ -96,10 +83,8 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
                   <Grid
                     item
                     xs={12}
-                    spacing={0}
                     columnSpacing={{ xs: 0 }}
                     alignItems="flex-start"
-                    direction="row"
                   >
                     <Box
                       sx={{
@@ -129,81 +114,8 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
                         <p className="item__desc right">{NYPL}</p>
                       </div>
                     </Box>
-                    {/* <div className="item">
-                      <Grid item xs={6}>
-                        <div className="item">
-                          <p className="item__desc--title">LOCATION</p>
-                          <p className="item__desc">Dallas, TX</p>
-                        </div>
-                      </Grid>
-                      <Grid item xs={6}>
-                        <div className="item">
-                          <p className="item__desc--title">PHOTOGRAPHER</p>
-                          <p className="item__desc">{photographer}</p>
-                        </div>
-                      </Grid>
-                      <Grid item xs={3} md={3}>
-                        <div className="item">
-                          <p className="item__desc--title right">YEAR</p>
-                          <p className="item__desc right">{year}</p>
-                        </div>
-                      </Grid>
-                      <Grid item xs={3} md={3}>
-                        <div className="item">
-                          <p className="item__desc--title right">NYPL</p>
-                          <p className="item__desc right">{NYPL}</p>
-                        </div>
-                      </Grid>
-                    </div> */}
                   </Grid>
                 </Grid>
-
-                {/* <Grid item xs={3} md={3} spacing={0}>
-                  <div className="item">
-                    <p className="item__desc--title">LOCATION</p>
-                    <p className="item__desc">Dallas, TX</p>
-                  </div>
-                </Grid>
-                <Grid item xs={3} md={3} spacing={0}>
-                  <div className="item">
-                    <p className="item__desc--title">PHOTOGRAPHER</p>
-                    <p className="item__desc">{photographer}</p>
-                  </div>
-                </Grid>
-                <Grid item xs={3} md={3}>
-                  <div className="item">
-                    <p className="item__desc--title right">YEAR</p>
-                    <p className="item__desc right">{year}</p>
-                  </div>
-                </Grid>
-                <Grid item xs={3} md={3}>
-                  <div className="item">
-                    <p className="item__desc--title right">NYPL</p>
-                    <p className="item__desc right">{NYPL}</p>
-                  </div>
-                </Grid> */}
-                {/* <Grid item xs={6}>
-                  <button className="button" onClick={() => changeQuote()}>
-                    Change Quote
-                  </button>
-                </Grid>
-                <Grid item xs={6}>
-                  <a
-                    href="https://www.google.com/"
-                    target="_blank"
-                    className="button"
-                  >
-                    Identify
-                  </a>
-                </Grid>
-                <Grid item xs={12}>
-                  <button
-                    className="button close"
-                    onClick={() => handleClose()}
-                  >
-                    Close
-                  </button>
-                </Grid> */}
               </Grid>
               <Grid item xs={12}>
                 <a
@@ -214,23 +126,6 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
                   Identify
                 </a>
               </Grid>
-              {/* <div id="info-section" className="info">
-                <div className="description">
-                  Sam am aamam aamam aamam aamam aamam aamam aamam aamam aamam
-                  aamamm aamam aamam aamamamp
-                </div>
-                <div className="other-info">
-                  Sample t, saample aample t, ample t, mple
-                </div>
-              </div>{" "} */}
-              {/* <div className="bottomModal">
-                <div id="quote-container" className="quote">
-                  <h2 id="quote">
-                    I like to look at one or two random quotes each morning. It
-                    can be a good exercise for journaling prompts.
-                  </h2>
-                </div>
-              </div> */}
             </div>
           </div>
           <button id="x" onClick={() => handleClose()}>
