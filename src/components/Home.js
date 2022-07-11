@@ -9,7 +9,7 @@ export default function About() {
         </h1>
       </div>
       <div className="wrap">
-        <h1>About</h1>
+        <h1>About.</h1>
         <p>
           <em>An Archive of Unnamed Women</em> is a speculative remix that
           recovers photographs of unidentified women in digital photography
