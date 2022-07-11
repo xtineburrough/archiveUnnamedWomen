@@ -5,7 +5,7 @@ export default function About() {
     <div className="background">
       <div className="wrap title">
         <h1>
-          Archive of <span style={{ color: "#3d3b3b" }}>Unnamed</span> Women
+          Archive of <span style={{ color: "#3d3b3b" }}>Unnamed</span> Women..
         </h1>
       </div>
       <div className="wrap">
