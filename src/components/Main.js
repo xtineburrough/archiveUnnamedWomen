@@ -1,7 +1,7 @@
 import Masonry from "react-masonry-css";
 
 import NewModal from "./NewModal";
-
+import "./styles/Print.css";
 import "./styles/Main.css";
 
 export default function Main({
@@ -16,6 +16,7 @@ export default function Main({
       content.push(
         <div key={index}>
           <NewModal
+            className="modalPrint"
             itemData={itemData}
             quoteList={quoteList}
             collectionName={collectionName}

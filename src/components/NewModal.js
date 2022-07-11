@@ -6,8 +6,6 @@ import { Grid } from "@mui/material";
 
 import "./styles/NewModal.css";
 
-import "./styles/Print.css";
-
 export default function NewModal({
   itemData,
   quoteList,

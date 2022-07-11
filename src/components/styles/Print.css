@@ -132,6 +132,10 @@
   #quote {
     font-family: "Crete Round", serif;
   }
+  .modalPrint {
+    width: 960px;
+    margin: 0 auto;
+  }
   * {
     color-adjust: exact;
     -webkit-print-color-adjust: exact;
