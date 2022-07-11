@@ -1,11 +1,11 @@
 @media print {
   body,
   html {
-    padding: 50px;
+    padding: 5rem;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #fad7a0;
+    background-color: #a0a7fa;
     -webkit-print-color-adjust: exact !important;
   }
   nav,
@@ -14,6 +14,15 @@
   }
   .full-container,
   .noPrint {
+    display: none;
+  }
+  #button {
+    display: none;
+  }
+  .MuiBackdrop-root {
+    display: none;
+  }
+  [class^="backdrop"] {
     display: none;
   }
   .ember-modal-dialog {
@@ -28,9 +37,26 @@
   .modal-content .image-quote {
     /* align-items: center !important; */
     justify-content: space-between !important;
-    margin-bottom: 15px !important;
+    margin-bottom: 1rem !important;
     margin: auto !important;
     float: none;
+    margin-bottom: 1rem;
+  }
+  .modal-content .image-quote .modal-right .quote h2 {
+    margin: auto;
+    /* padding: 1.1rem;
+    line-height: 2rem;
+    font-size: 1.3rem; */
+    width: 90%;
+    color: white;
+    transform: rotate(-3deg);
+  }
+  .item {
+    margin-right: 2rem;
+    margin-bottom: 0.4rem;
+    padding: 0;
+    font-size: 0.7rem;
+    text-align: left;
   }
 
   .modal-left {
@@ -47,9 +73,10 @@
     float: none;
   }
   .modal-right .quote #quote {
-    font-size: 42px;
-    line-height: 50px;
-    text-shadow: 0 5px 25px rgba(30, 30, 30, 0.8);
+    font-size: 1.3rem;
+    padding: 1.1rem;
+    line-height: 2rem;
+
     width: inherit;
   }
   .info h2,
@@ -60,7 +87,7 @@
     color: rgba(20, 20, 20, 0.7);
   }
   .info .info-header {
-    font-size: 28px;
+    font-size: 1.5rem;
 
     text-transform: uppercase;
   }
@@ -75,12 +102,46 @@
   }
   .info .other-info .click-to-show {
     flex: 1;
-    margin-right: 15px;
+    margin-right: 1rem;
+  }
+  .css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+    display: none;
+  }
+  .MuiModal-root {
+    visibility: hidden;
   }
 
   .modal {
     background-color: #fad7a0;
     max-height: 90vh;
     max-width: 90vw;
+    border: 2px solid #fad7a0;
+    visibility: visible;
+    border: 100rem solid #fad7a0;
+  }
+  .item__desc--title {
+    margin-top: 1rem;
+  }
+  .modal-content .image-quote .modal-left img {
+    max-height: 70vh;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 0.7rem;
+  }
+  #quote {
+    font-family: "Crete Round", serif;
+  }
+  * {
+    color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    -print-color-adjust: exact;
+  }
+
+  #x {
+    display: none;
+  }
+  .item p {
+    font-family: "Source Sans Pro", sans-serif;
   }
 }

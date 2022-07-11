@@ -7,7 +7,7 @@ import Navigation from "./components/Navigation";
 // Import Main Component
 import Main from "./components/Main";
 //Import About Component
-import About from "./components/About";
+import Home from "./components/Home";
 
 // Importing Data under the name "BasicData"
 import { data as BasicData } from "./components/Collections/BasicData";
@@ -29,16 +29,14 @@ function App() {
 
   // Make sure the name matches! Had to use an array because Array keeps order while objects does not
   const listOfCollections = [
-    "Basic Collection",
+    "Women Collection",
     "Food Collection",
-    "Car Collection",
     "New Collection Name",
   ];
 
   const collection = {
     "Food Collection": { data: FoodData, quoteData: BasicQuote },
-    "Basic Collection": { data: BasicData, quoteData: BasicQuote },
-    "Car Collection": { data: CarData, quoteData: BasicQuote },
+    "Women Collection": { data: BasicData, quoteData: BasicQuote },
     "New Collection Name": { data: NEW_DATA_NAME, quoteData: NewQuote },
   };
   // function to warn you if listOfCollections does not match collection
@@ -54,18 +52,21 @@ function App() {
   // setCurrentCollection = function to change "currentCollection"
   // useState("Basic") = setting the default value
   // const [variableName, functionName to change variable] = useState(defaultValue)
-  const [currentCollection, setCurrentCollection] = useState(BasicData);
+  const [currentCollection, setCurrentCollection] = useState("Home");
+  const [collectionName, setCollectionName] = useState("Home");
   const [quoteList, setQuoteList] = useState(BasicQuote);
 
   const [count, setCount] = useState(5);
 
   var changeCollection = (collectionName) => {
-    if (collectionName == "About") {
-      setCurrentCollection("About");
+    if (collectionName == "Home") {
+      setCurrentCollection("Home");
+      setCollectionName("Home");
 
       return;
     }
     if (collection[collectionName]) {
+      setCollectionName(collectionName);
       setCurrentCollection(collection[collectionName].data);
     } else {
       // Collection does not exist, set a default collection to show
@@ -88,11 +89,12 @@ function App() {
       />
       <div className="marginUp"></div>
       <div className="App noPrint">
-        {currentCollection == "About" ? (
-          <About />
+        {currentCollection == "Home" ? (
+          <Home />
         ) : (
           <Main
             currentCollection={currentCollection}
+            collectionName={collectionName}
             quoteList={quoteList}
             setCount={setCount}
             count={count}

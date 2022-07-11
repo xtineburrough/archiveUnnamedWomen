@@ -1,16 +1,22 @@
 import Masonry from "react-masonry-css";
 
-import NewModal from "./AlModal";
+import NewModal from "./NewModal";
 
-import "./Main.css";
+import "./styles/Main.css";
 
-export default function Main({ currentCollection, quoteList }) {
+export default function Main({ currentCollection, quoteList, collectionName }) {
   let showCollection = (currentCollection) => {
     let content = [];
-    currentCollection.map((item, index) =>
+    currentCollection.map((itemData, index) =>
+      // Check if Image Exist
+
       content.push(
         <div key={index}>
-          <NewModal itemData={item} quoteList={quoteList} />
+          <NewModal
+            itemData={itemData}
+            quoteList={quoteList}
+            collectionName={collectionName}
+          />
         </div>
       )
     );

@@ -1,4 +1,4 @@
-import "./Navigation.css";
+import "./styles/Navigation.css";
 
 export default function Navigation({ listOfCollections, changeCollection }) {
   return (
@@ -14,12 +14,7 @@ export default function Navigation({ listOfCollections, changeCollection }) {
       <input type="checkbox" id="drop" />
       <ul className="menu">
         <li>
-          <a
-            href="http://www.visiblewomen.net/unnamed-women/index.html"
-            onClick={() => changeCollection()}
-          >
-            Home
-          </a>
+          <a onClick={() => changeCollection("Home")}>Home</a>
         </li>
         <li>
           <label htmlFor="drop-1" className="toggle">
@@ -52,9 +47,6 @@ export default function Navigation({ listOfCollections, changeCollection }) {
           </label>
           <a href="#">Web Design</a>
         </li> */}
-        <li>
-          <a onClick={() => changeCollection("About")}>About</a>
-        </li>
       </ul>
     </nav>
   );

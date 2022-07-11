@@ -4,11 +4,11 @@ import Modal from "@mui/material/Modal";
 
 import { Grid } from "@mui/material";
 
-import "./AlModal.css";
+import "./styles/NewModal.css";
 
-import "./Print.css";
+import "./styles/Print.css";
 
-export default function NewModal({ itemData, quoteList }) {
+export default function NewModal({ itemData, quoteList, collectionName }) {
   // States
   const [open, setOpen] = useState(false);
   const [imageLink, setImageLink] = useState(
@@ -22,6 +22,7 @@ export default function NewModal({ itemData, quoteList }) {
   const [quote, setQuote] = useState("");
 
   const changeQuote = () => {
+    console.log("changing");
     setQuote(quoteList[Math.floor(Math.random() * quoteList.length)].quote);
   };
 
@@ -42,11 +43,11 @@ export default function NewModal({ itemData, quoteList }) {
         className="masonryImage"
         onClick={() => handleOpen(itemData)}
         // src={`${itemData.imageLink}`}
-        src={`./myImage/${itemData.nypl}.png`}
+        src={`./CollectionImages/${collectionName}/${itemData.nypl}.png`}
         // srcSet={`${itemData.imageLink}`}
-        backgroundimage={itemData.imageLink}
+        // backgroundimage={itemData.imageLink}
         alt={"test"}
-        loading="lazy"
+        loading=""
         style={{
           borderBottomLeftRadius: 4,
           borderBottomRightRadius: 4,
@@ -66,29 +67,27 @@ export default function NewModal({ itemData, quoteList }) {
           <div className="auser-match-container modal-content">
             <div className="image-quote">
               <div className="modal-left">
-                <img id="modal-image" src={imageLink} />
+                <img
+                  id="modal-image"
+                  src={`./CollectionImages/${collectionName}/${itemData.nypl}.png`}
+                />
                 {/* <p className="test123">
                   asdhlkashdlkashdlkahsdlkhasdasgjgjgjkgjlkgjdhlkashdlkashdlkahkahsdlkhasd
                 </p> */}
               </div>
               <div className="modal-right">
                 <div id="quote-container" className="quote">
-                  <h2 id="quote">
-                    I like to look at one or two random quotes each morning. It
-                    can be a good exercise for journaling prompts.
-                  </h2>
+                  <h2 id="quote">{quote}</h2>
                 </div>
               </div>
 
-              {/* <div className="modal-right">
-                <div id="quote-container" className="quote">
-                  <h2 id="quote">
-                    I like to look at one or two random quotes each morning. It
-                    can be a good exercise for journaling prompts.
-                  </h2>
-                </div>
-              </div> */}
-              <Grid container spacing={0} columnSpacing={{ xs: 0 }}>
+              <Grid
+                onClick={changeQuote}
+                className="pointer"
+                container
+                spacing={0}
+                columnSpacing={{ xs: 0 }}
+              >
                 <Grid item xs={12}>
                   <div className="item">
                     <p className="item__desc--title">DESCRIPTION</p>
@@ -113,20 +112,20 @@ export default function NewModal({ itemData, quoteList }) {
                         justifyContent: "flex-start",
                       }}
                     >
-                      <div className="item left">
+                      <div className="item ">
                         <p className="item__desc--title left">LOCATION</p>
                         <p className="item__desc left">Dallas, TX</p>
                       </div>
-                      <div className="item left">
+                      <div className="item ">
                         <p className="item__desc--title">PHOTOGRAPHER</p>
                         <p className="item__desc">{photographer}</p>
                       </div>
                       <div className="item">
-                        <p className="item__desc--title right">YEAR</p>
+                        <p className="item__desc--title ">YEAR</p>
                         <p className="item__desc right">{year}</p>
                       </div>
                       <div className="item">
-                        <p className="item__desc--title right">NYPL</p>
+                        <p className="item__desc--title ">NYPL</p>
                         <p className="item__desc right">{NYPL}</p>
                       </div>
                     </Box>
@@ -206,6 +205,15 @@ export default function NewModal({ itemData, quoteList }) {
                   </button>
                 </Grid> */}
               </Grid>
+              <Grid item xs={12}>
+                <a
+                  href="https://www.google.com/"
+                  target="_blank"
+                  className="button"
+                >
+                  Identify
+                </a>
+              </Grid>
               {/* <div id="info-section" className="info">
                 <div className="description">
                   Sam am aamam aamam aamam aamam aamam aamam aamam aamam aamam
@@ -225,6 +233,9 @@ export default function NewModal({ itemData, quoteList }) {
               </div> */}
             </div>
           </div>
+          <button id="x" onClick={() => handleClose()}>
+            X
+          </button>
         </Box>
       </Modal>
     </div>

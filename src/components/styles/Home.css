@@ -1,0 +1,25 @@
+.background {
+  padding: 0;
+  margin: 0;
+  background-image: url("http://visiblewomen.net/unnamed-women/img/paper-bg-1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrap {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(230, 215, 194, 0.9);
+  padding: 2rem;
+
+  font-family: "Volkhov", serif;
+}
+.wrap p {
+  text-align: left;
+}
+.title {
+  margin-bottom: 3rem;
+  text-shadow: 2px 2px rgba(44, 43, 43, 0.232);
+}

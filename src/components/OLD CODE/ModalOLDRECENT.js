@@ -4,7 +4,7 @@ import Modal from "@mui/material/Modal";
 
 import { Grid } from "@mui/material";
 
-import "./Modal.css";
+import "./styles/Modal.css";
 
 export default function NewModal({ itemData, quoteList }) {
   // States

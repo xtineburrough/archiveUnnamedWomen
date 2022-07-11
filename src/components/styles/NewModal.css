@@ -38,7 +38,7 @@
 }
 
 .item {
-  margin-right: 0.2rem;
+  margin-right: 1rem;
   margin-bottom: 0.4rem;
   padding: 0;
   font-size: 0.7rem;
@@ -68,7 +68,10 @@
   color: white;
   font-style: italic;
   font-weight: bold;
-  font: Georgia, serif;
+}
+#quote {
+  font-family: "Crete Round", serif;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.558);
 }
 
 .item__desc--title {
@@ -142,17 +145,20 @@
   background-color: #3f433f;
   border: none;
   color: white;
-  padding: 0.3rem 0rem;
+  padding: 0.1rem 0rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1rem;
-  width: 100%;
+  width: 20%;
   cursor: pointer;
 }
 
 .close {
   background-color: #666766;
+}
+.pointer {
+  cursor: pointer;
 }
 
 @media print {
@@ -197,12 +203,12 @@
 }
 .modal-content .image-quote .modal-right .quote h2 {
   margin: auto;
-  padding: 20px;
-  line-height: 35px;
-  font-size: 25px;
+  padding: 1.1rem;
+  line-height: 2rem;
+  font-size: 1.3rem;
   width: 90%;
   color: white;
-  transform: rotate(0deg);
+  transform: rotate(-3deg);
   text-shadow: 0 5px 30px rgba(30, 30, 30, 0.5);
 }
 .modal-bottom {
@@ -247,7 +253,7 @@
 }
 
 .modal-content .info .description {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   flex-wrap: wrap;
   overflow-wrap: break-word;
 }
@@ -262,6 +268,22 @@
 }
 .modal-content .info .other-info .click-to-show {
   flex: 1;
-  margin-right: 15px;
-  margin-bottom: 15px;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+#x {
+  position: absolute;
+  background: rgb(131, 127, 127);
+  color: white;
+  top: -1rem;
+  right: -1rem;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+}
+
+.item p {
+  font-family: "Source Sans Pro", sans-serif;
 }
