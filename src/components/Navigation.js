@@ -4,7 +4,7 @@ export default function Navigation({ listOfCollections, changeCollection }) {
   return (
     <nav>
       <div id="logo">
-        An Archive of <span style={{ color: "white" }}>Unnamed</span> Women
+        An Archive of <span style={{ color: "white" }}>Unnamed</span> Women :o
       </div>
 
       <label htmlFor="drop" className="toggle">
