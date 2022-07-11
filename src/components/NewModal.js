@@ -8,14 +8,19 @@ import "./styles/NewModal.css";
 
 import "./styles/Print.css";
 
-export default function NewModal({ itemData, quoteList, collectionName }) {
+export default function NewModal({
+  itemData,
+  quoteList,
+  collectionName,
+  idName,
+}) {
   // States
   const [open, setOpen] = useState(false);
   const [description, setDescription] = useState("N/A");
   const [location, setLocation] = useState("N/A");
   const [photographer, setPhotographer] = useState("N/A");
   const [year, setYear] = useState("N/A");
-  const [NYPL, setNYPL] = useState("N/A");
+  const [id, setId] = useState("N/A");
   const [quote, setQuote] = useState("");
 
   const changeQuote = () => {
@@ -26,7 +31,8 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
     setOpen(true);
     setDescription(itemData.description);
     setPhotographer(itemData.photographer);
-    setNYPL(itemData.nypl);
+    setLocation(itemData.location);
+    setId(itemData.id);
     setYear(itemData.year);
     changeQuote();
   };
@@ -37,7 +43,7 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
       <img
         className="masonryImage"
         onClick={() => handleOpen(itemData)}
-        src={`./CollectionImages/${collectionName}/${itemData.nypl}.png`}
+        src={`./CollectionImages/${collectionName}/${itemData.id}.png`}
         style={{
           borderBottomLeftRadius: 4,
           borderBottomRightRadius: 4,
@@ -59,7 +65,7 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
               <div className="modal-left">
                 <img
                   id="modal-image"
-                  src={`./CollectionImages/${collectionName}/${itemData.nypl}.png`}
+                  src={`./CollectionImages/${collectionName}/${itemData.id}.png`}
                 />
               </div>
               <div className="modal-right">
@@ -97,11 +103,11 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
                         justifyContent: "flex-start",
                       }}
                     >
-                      <div className="item ">
+                      <div className="item">
                         <p className="item__desc--title left">LOCATION</p>
-                        <p className="item__desc left">Dallas, TX</p>
+                        <p className="item__desc left">{location}</p>
                       </div>
-                      <div className="item ">
+                      <div className="item">
                         <p className="item__desc--title">PHOTOGRAPHER</p>
                         <p className="item__desc">{photographer}</p>
                       </div>
@@ -110,8 +116,8 @@ export default function NewModal({ itemData, quoteList, collectionName }) {
                         <p className="item__desc right">{year}</p>
                       </div>
                       <div className="item">
-                        <p className="item__desc--title ">NYPL</p>
-                        <p className="item__desc right">{NYPL}</p>
+                        <p className="item__desc--title ">{idName}</p>
+                        <p className="item__desc right">{id}</p>
                       </div>
                     </Box>
                   </Grid>

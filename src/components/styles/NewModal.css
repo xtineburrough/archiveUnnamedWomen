@@ -38,7 +38,7 @@
 }
 
 .item {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   margin-bottom: 0.4rem;
   padding: 0;
   font-size: 0.7rem;
@@ -87,25 +87,6 @@
   margin: 0 auto;
   padding: 0;
   border-radius: 1rem;
-}
-.imageContainer {
-  /* position: relative;
-    text-align: left;
-    color: white; */
-
-  align-items: center;
-  height: 65%;
-  width: 100%;
-  border: 0px solid black;
-  display: grid;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  height: 50%;
-  background-color: rgba(50, 49, 43, 255);
-  position: relative;
 }
 
 .container {
@@ -159,13 +140,13 @@
   margin-bottom: 15px;
 }
 .modal-content .image-quote .modal-left {
-  max-height: 70vh;
+  max-height: 75vh;
   display: block;
   margin: auto;
   position: relative;
 }
 .modal-content .image-quote .modal-left img {
-  max-height: 70vh;
+  max-height: 75vh;
 
   display: block;
   margin: auto;
@@ -190,8 +171,6 @@
   color: white;
   transform: rotate(-3deg);
   text-shadow: 0 5px 30px rgba(30, 30, 30, 0.5);
-}
-.modal-bottom {
 }
 
 .modal-content .info h2,

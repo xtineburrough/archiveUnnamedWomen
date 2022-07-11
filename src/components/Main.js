@@ -4,7 +4,12 @@ import NewModal from "./NewModal";
 
 import "./styles/Main.css";
 
-export default function Main({ currentCollection, quoteList, collectionName }) {
+export default function Main({
+  currentCollection,
+  quoteList,
+  collectionName,
+  idName,
+}) {
   let showCollection = (currentCollection) => {
     let content = [];
     currentCollection.map((itemData, index) =>
@@ -14,6 +19,7 @@ export default function Main({ currentCollection, quoteList, collectionName }) {
             itemData={itemData}
             quoteList={quoteList}
             collectionName={collectionName}
+            idName={idName}
           />
         </div>
       )

@@ -28,10 +28,14 @@ function App() {
   // We insert the Navigation and Main Components
 
   // Make sure the name matches! Had to use an array because Array keeps order while objects does not
-  const listOfCollections = ["Women Collection"];
+  const listOfCollections = ["NYPL Edition"];
 
   const collection = {
-    "Women Collection": { data: BasicData, quoteData: BasicQuote },
+    "NYPL Edition": {
+      data: BasicData,
+      quoteData: BasicQuote,
+      idName: "NYPL",
+    },
   };
   // function to warn you if listOfCollections does not match collection
   listOfCollections.map((collectionName) => {
@@ -49,6 +53,7 @@ function App() {
   const [currentCollection, setCurrentCollection] = useState("Home");
   const [collectionName, setCollectionName] = useState("Home");
   const [quoteList, setQuoteList] = useState(BasicQuote);
+  const [currentIdName, setCurrentIdName] = useState("ID");
 
   const [count, setCount] = useState(5);
 
@@ -62,9 +67,11 @@ function App() {
     if (collection[collectionName]) {
       setCollectionName(collectionName);
       setCurrentCollection(collection[collectionName].data);
+      setCurrentIdName(collection[collectionName].idName);
     } else {
       // Collection does not exist, set a default collection to show
       setCurrentCollection(BasicData);
+      setCurrentIdName("ID");
     }
 
     if (collection[collectionName]) {
@@ -92,6 +99,7 @@ function App() {
             quoteList={quoteList}
             setCount={setCount}
             count={count}
+            idName={currentIdName}
           />
         )}
       </div>

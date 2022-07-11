@@ -3,7 +3,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-7bac-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1206642,
+    id: 1206642,
     loc: "",
     uuid: "acecac60-c6ed-012f-610a-58d385a7bc34",
     photographer: "Miller, Kelly",
@@ -26,7 +26,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8bb-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260019,
+    id: 1260019,
     loc: "",
     uuid: "0b8d5580-c613-012f-a285-58d385a7bc34",
     photographer: "Mydans, Carl",
@@ -49,7 +49,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/75ece515-a29d-388d-e040-e00a180601f1",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1800851,
+    id: 1800851,
     loc: "",
     uuid: "df37bc10-c6e8-012f-9d24-3c075448cc4b",
     photographer: "Grossman, Sid",
@@ -72,7 +72,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/8fbb4d50-461d-0134-7795-00505686a51c",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 56806338,
+    id: 56806338,
     loc: "",
     uuid: "b8eee320-1ab6-0134-f291-00505686a51c",
     photographer: "",
@@ -95,7 +95,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/7e2d3c79-994e-d1b2-e040-e00a18064cca",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1818757,
+    id: 1818757,
     loc: "",
     uuid: "93a77360-c6ce-012f-0f1d-58d385a7bc34",
     photographer: "",
@@ -118,7 +118,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/7e2d3c79-9950-d1b2-e040-e00a18064cca",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1818759,
+    id: 1818759,
     loc: "",
     uuid: "94228c00-c6ce-012f-0278-58d385a7bc34",
     photographer: "Staudinger Rozaffy, R.",
@@ -141,7 +141,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/7e2d3c79-9944-d1b2-e040-e00a18064cca",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1818747,
+    id: 1818747,
     loc: "",
     uuid: "9148f820-c6ce-012f-d4ff-58d385a7bc34",
     photographer: "",
@@ -164,7 +164,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f88c-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1259992,
+    id: 1259992,
     loc: "",
     uuid: "919ab9d0-c612-012f-e31b-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -187,7 +187,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-8431-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1213442,
+    id: 1213442,
     loc: "",
     uuid: "3ea0a8b0-c6d1-012f-001d-58d385a7bc34",
     photographer: "Smith, Roger",
@@ -210,7 +210,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/b6e69fe8-7bf8-05aa-e040-e00a18062cd5",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 3990809,
+    id: 3990809,
     loc: "",
     uuid: "345003e0-c62a-012f-ff6f-58d385a7bc34",
     photographer: "",
@@ -233,7 +233,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f9fb-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260330,
+    id: 1260330,
     loc: "",
     uuid: "b9e86aa0-c645-012f-68b6-58d385a7bc34",
     photographer: "",
@@ -256,7 +256,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa3e-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260396,
+    id: 1260396,
     loc: "",
     uuid: "388e6340-c6d1-012f-3f18-58d385a7bc34",
     photographer: "Smith, Roger",
@@ -279,7 +279,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8b9-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260017,
+    id: 1260017,
     loc: "",
     uuid: "097578a0-c613-012f-a5a3-58d385a7bc34",
     photographer: "Collins, Marjory",
@@ -302,7 +302,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/85108dd0-461d-0134-09ad-00505686a51c",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 56806324,
+    id: 56806324,
     loc: "",
     uuid: "22d46120-13cf-0134-cb11-00505686a51c",
     photographer: "",
@@ -325,7 +325,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/c1fcc19f-33b5-c09d-e040-e00a18061e66",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 4042602,
+    id: 4042602,
     loc: "",
     uuid: "7f724b90-c5f2-012f-7f0c-58d385a7bc34",
     photographer: "Roberts, G. Walter",
@@ -348,7 +348,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-1d45-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1169404,
+    id: 1169404,
     loc: "",
     uuid: "9276af80-c6b3-012f-8e67-3c075448cc4b",
     photographer: "Olcott, Jane",
@@ -371,7 +371,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-1d41-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1169400,
+    id: 1169400,
     loc: "",
     uuid: "86509440-c6b3-012f-1a8c-3c075448cc4b",
     photographer: "Olcott, Jane",
@@ -394,7 +394,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47dd-e887-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1240248,
+    id: 1240248,
     loc: "",
     uuid: "271673d0-c62a-012f-c3b2-58d385a7bc34",
     photographer: "Fuller, Thomas Oscar",
@@ -417,7 +417,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/926d9ec0-9f93-0134-a6c2-00505686a51c",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 56997665,
+    id: 56997665,
     loc: "",
     uuid: "fe4b89c0-9ba4-0134-eb49-00505686a51c",
     photographer: "",
@@ -440,7 +440,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-1d0f-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1168490,
+    id: 1168490,
     loc: "",
     uuid: "3b71aa70-c6ba-012f-84d2-3c075448cc4b",
     photographer: "",
@@ -463,7 +463,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-1ef2-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1217218,
+    id: 1217218,
     loc: "",
     uuid: "fbd008b0-c6f3-012f-88bd-58d385a7bc34",
     photographer: "Chicago Commission on Race Relations",
@@ -486,7 +486,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-8175-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1211916,
+    id: 1211916,
     loc: "",
     uuid: "86005380-c612-012f-3b53-58d385a7bc34",
     photographer: "Lange, Dorothea",
@@ -509,7 +509,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-7bdd-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1206691,
+    id: 1206691,
     loc: "",
     uuid: "bf73d3b0-c6ed-012f-973c-58d385a7bc34",
     photographer: "Miller, Kelly",
@@ -532,7 +532,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47dd-df8d-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1121215,
+    id: 1121215,
     loc: "",
     uuid: "5c3770f0-c617-012f-b50a-58d385a7bc34",
     photographer: "Whipple, Phila M.",
@@ -555,7 +555,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa22-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260373,
+    id: 1260373,
     loc: "",
     uuid: "1d520180-c6be-012f-bf75-58d385a7bc34",
     photographer: "Leonard",
@@ -578,7 +578,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa45-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260399,
+    id: 1260399,
     loc: "",
     uuid: "3915beb0-c6d1-012f-f033-58d385a7bc34",
     photographer: "Smith, Roger",
@@ -601,7 +601,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f992-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260226,
+    id: 1260226,
     loc: "",
     uuid: "a7095240-c612-012f-12b2-58d385a7bc34",
     photographer: "Lee, Russell",
@@ -624,7 +624,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa1b-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260367,
+    id: 1260367,
     loc: "",
     uuid: "1aabcb00-c6be-012f-b609-58d385a7bc34",
     photographer: "",
@@ -647,7 +647,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa3f-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260397,
+    id: 1260397,
     loc: "",
     uuid: "362e0040-c6d1-012f-a9ee-58d385a7bc34",
     photographer: "Joseph, E.F.",
@@ -670,7 +670,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa43-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260392,
+    id: 1260392,
     loc: "",
     uuid: "1f523b30-c6be-012f-3d1f-58d385a7bc34",
     photographer: "",
@@ -693,7 +693,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa41-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260391,
+    id: 1260391,
     loc: "",
     uuid: "1eeb10a0-c6be-012f-58dd-58d385a7bc34",
     photographer: "",
@@ -716,7 +716,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-8410-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1212151,
+    id: 1212151,
     loc: "",
     uuid: "24641520-c6d1-012f-59b4-58d385a7bc34",
     photographer: "",
@@ -739,7 +739,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-a082-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1232074,
+    id: 1232074,
     loc: "",
     uuid: "037643c0-c6bc-012f-0577-58d385a7bc34",
     photographer: "",
@@ -762,7 +762,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa33-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260383,
+    id: 1260383,
     loc: "",
     uuid: "23acdbc0-c6be-012f-2e36-58d385a7bc34",
     photographer: "",
@@ -785,7 +785,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa4d-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260404,
+    id: 1260404,
     loc: "",
     uuid: "3cbdaf50-c6d1-012f-fe3f-58d385a7bc34",
     photographer: "Liberman, Howard",
@@ -808,7 +808,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa18-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260364,
+    id: 1260364,
     loc: "",
     uuid: "18f4e240-c6be-012f-5ce3-58d385a7bc34",
     photographer: "",
@@ -831,7 +831,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/6bdb1562-8189-8f7e-e040-e00a18067399",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1702766,
+    id: 1702766,
     loc: "",
     uuid: "3fec47b0-c6d1-012f-1ef7-58d385a7bc34",
     photographer: "",
@@ -854,7 +854,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa25-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260376,
+    id: 1260376,
     loc: "",
     uuid: "20cce780-c6be-012f-e956-58d385a7bc34",
     photographer: "",
@@ -877,7 +877,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-1ca9-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1168373,
+    id: 1168373,
     loc: "",
     uuid: "425dec40-c6e7-012f-dd02-3c075448cc4b",
     photographer: "",
@@ -900,7 +900,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/7e2d3c79-994a-d1b2-e040-e00a18064cca",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1818753,
+    id: 1818753,
     loc: "",
     uuid: "92ba9260-c6ce-012f-6cf2-58d385a7bc34",
     photographer: "",
@@ -923,7 +923,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/7e2d3c79-9941-d1b2-e040-e00a18064cca",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1818744,
+    id: 1818744,
     loc: "",
     uuid: "908f84d0-c6ce-012f-706e-58d385a7bc34",
     photographer: "",
@@ -946,7 +946,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/7e2d3c79-994c-d1b2-e040-e00a18064cca",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1818755,
+    id: 1818755,
     loc: "",
     uuid: "932cecf0-c6ce-012f-29d0-58d385a7bc34",
     photographer: "",
@@ -969,7 +969,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/7e2d3c79-994b-d1b2-e040-e00a18064cca",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1818754,
+    id: 1818754,
     loc: "",
     uuid: "92f68f20-c6ce-012f-eaf0-58d385a7bc34",
     photographer: "",
@@ -992,7 +992,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/7e2d3c79-994d-d1b2-e040-e00a18064cca",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1818756,
+    id: 1818756,
     loc: "",
     uuid: "93712fa0-c6ce-012f-e77d-58d385a7bc34",
     photographer: "",
@@ -1015,7 +1015,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa60-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260413,
+    id: 1260413,
     loc: "",
     uuid: "9ee93e70-c6b2-012f-587f-58d385a7bc34",
     photographer: "Liberman, Howard",
@@ -1038,7 +1038,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/7e2d3c79-9951-d1b2-e040-e00a18064cca",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1818760,
+    id: 1818760,
     loc: "",
     uuid: "946f4680-c6ce-012f-a71e-58d385a7bc34",
     photographer: "",
@@ -1061,7 +1061,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47dd-c69e-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1206635,
+    id: 1206635,
     loc: "",
     uuid: "36a3bde0-c6d1-012f-1fc8-58d385a7bc34",
     photographer: "Joseph, E.F.",
@@ -1084,7 +1084,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f98e-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260222,
+    id: 1260222,
     loc: "",
     uuid: "a513b4e0-c612-012f-cd26-58d385a7bc34",
     photographer: "Lee, Russell",
@@ -1107,7 +1107,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa4e-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260405,
+    id: 1260405,
     loc: "",
     uuid: "3724ad80-c6d1-012f-e685-58d385a7bc34",
     photographer: "Joseph, E.F.",
@@ -1130,7 +1130,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa3a-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260387,
+    id: 1260387,
     loc: "",
     uuid: "1b1bfd40-c6be-012f-8075-58d385a7bc34",
     photographer: "",
@@ -1153,7 +1153,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-1f1a-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1217255,
+    id: 1217255,
     loc: "",
     uuid: "0ad98790-c6f4-012f-2902-58d385a7bc34",
     photographer: "Chicago Commission on Race Relations",
@@ -1176,7 +1176,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8b0-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260020,
+    id: 1260020,
     loc: "",
     uuid: "0609f6e0-c613-012f-46ae-58d385a7bc34",
     photographer: "Rothstein, Arthur",
@@ -1199,7 +1199,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f90f-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260095,
+    id: 1260095,
     loc: "",
     uuid: "a181cf30-c612-012f-e613-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -1222,7 +1222,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f906-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260085,
+    id: 1260085,
     loc: "",
     uuid: "00431050-c613-012f-5a9f-58d385a7bc34",
     photographer: "Vachon, John",
@@ -1245,7 +1245,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-8176-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1211917,
+    id: 1211917,
     loc: "",
     uuid: "aa933840-c612-012f-53e8-58d385a7bc34",
     photographer: "Lee, Russell",
@@ -1268,7 +1268,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa49-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260394,
+    id: 1260394,
     loc: "",
     uuid: "2127b3a0-c6be-012f-bba4-58d385a7bc34",
     photographer: "",
@@ -1291,7 +1291,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-1ce2-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1210426,
+    id: 1210426,
     loc: "",
     uuid: "334c31f0-c6bb-012f-a2ec-3c075448cc4b",
     photographer: "Washington, Booker T.",
@@ -1314,7 +1314,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-1f1b-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1217256,
+    id: 1217256,
     loc: "",
     uuid: "0b43ccf0-c6f4-012f-7162-58d385a7bc34",
     photographer: "Chicago Commission on Race Relations",
@@ -1337,7 +1337,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-1f19-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1217254,
+    id: 1217254,
     loc: "",
     uuid: "0a656cc0-c6f4-012f-4f02-58d385a7bc34",
     photographer: "Chicago Commission on Race Relations",
@@ -1360,7 +1360,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/84cbff90-a7ca-0131-6533-58d385a7b928",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 5114784,
+    id: 5114784,
     loc: "",
     uuid: "6d16f100-997d-0131-f800-58d385a7b928",
     photographer: "",
@@ -1383,7 +1383,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-1d44-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1169403,
+    id: 1169403,
     loc: "",
     uuid: "8f86d270-c6b3-012f-0390-3c075448cc4b",
     photographer: "Olcott, Jane",
@@ -1406,7 +1406,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa48-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260393,
+    id: 1260393,
     loc: "",
     uuid: "1fbe4430-c6be-012f-23e9-58d385a7bc34",
     photographer: "",
@@ -1429,7 +1429,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa1c-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260368,
+    id: 1260368,
     loc: "",
     uuid: "1b821cb0-c6be-012f-638a-58d385a7bc34",
     photographer: "Eagle, Arnold",
@@ -1452,7 +1452,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa19-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260366,
+    id: 1260366,
     loc: "",
     uuid: "1a2338e0-c6be-012f-bf35-58d385a7bc34",
     photographer: "",
@@ -1475,7 +1475,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa28-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260378,
+    id: 1260378,
     loc: "",
     uuid: "21ea5a70-c6be-012f-99f7-58d385a7bc34",
     photographer: "Eagle, Arnold",
@@ -1498,7 +1498,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa21-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260372,
+    id: 1260372,
     loc: "",
     uuid: "1cf298b0-c6be-012f-ea03-58d385a7bc34",
     photographer: "",
@@ -1521,7 +1521,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa1e-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260369,
+    id: 1260369,
     loc: "",
     uuid: "bd7b9a0-c6be-012f-13bb-58d385a7bc34",
     photographer: "",
@@ -1544,7 +1544,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-8413-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1213443,
+    id: 1213443,
     loc: "",
     uuid: "3d439de0-c6d1-012f-9d22-58d385a7bc34",
     photographer: "United States Army Signal Corp.",
@@ -1567,7 +1567,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f990-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260224,
+    id: 1260224,
     loc: "",
     uuid: "a60329d0-c612-012f-d814-58d385a7bc34",
     photographer: "Lee, Russell",
@@ -1590,7 +1590,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-8728-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1212143,
+    id: 1212143,
     loc: "",
     uuid: "aa1fc610-c612-012f-447c-58d385a7bc34",
     photographer: "Lee, Russell",
@@ -1613,7 +1613,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/79c17ca1-7a0b-103e-e040-e00a18067ff9",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1806595,
+    id: 1806595,
     loc: "",
     uuid: "d5b40110-c628-012f-32ce-58d385a7bc34",
     photographer: "Holt, Norma",
@@ -1636,7 +1636,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/7b07ea5c-6223-6b59-e040-e00a18065a4d",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1811321,
+    id: 1811321,
     loc: "",
     uuid: "303a6f20-c62a-012f-6e74-58d385a7bc34",
     photographer: "",
@@ -1659,7 +1659,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-1d46-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1169405,
+    id: 1169405,
     loc: "",
     uuid: "9b707e10-c6b3-012f-8190-3c075448cc4b",
     photographer: "Olcott, Jane",
@@ -1682,7 +1682,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f98f-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260223,
+    id: 1260223,
     loc: "",
     uuid: "a5850260-c612-012f-c3eb-58d385a7bc34",
     photographer: "Lee, Russell",
@@ -1705,7 +1705,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-842f-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1213441,
+    id: 1213441,
     loc: "",
     uuid: "3b722300-c6d1-012f-7aba-58d385a7bc34",
     photographer: "Smith, Roger",
@@ -1728,7 +1728,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-1d43-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1169402,
+    id: 1169402,
     loc: "",
     uuid: "8c790dd0-c6b3-012f-f157-3c075448cc4b",
     photographer: "Olcott, Jane",
@@ -1751,7 +1751,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-8729-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1212144,
+    id: 1212144,
     loc: "",
     uuid: "ab1f1840-c612-012f-3660-58d385a7bc34",
     photographer: "Lee, Russell",
@@ -1774,7 +1774,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-1f2d-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1216585,
+    id: 1216585,
     loc: "",
     uuid: "78009f80-c6da-012f-cf07-3c075448cc4b",
     photographer: "",
@@ -1798,7 +1798,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-1ce8-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1210432,
+    id: 1210432,
     loc: "",
     uuid: "454b6580-c6bb-012f-95b5-3c075448cc4b",
     photographer: "Washington, Booker T.",
@@ -1822,7 +1822,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e2-ed3e-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "05schaw",
+    id: "05schaw",
     loc: "",
     uuid: "6f6c7a20-c6b6-012f-94ec-58d385a7bc34",
     photographer: "",
@@ -1845,7 +1845,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/6bdb1562-818b-8f7e-e040-e00a18067399",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1702768,
+    id: 1702768,
     loc: "",
     uuid: "409f6160-c6d1-012f-d5b3-58d385a7bc34",
     photographer: "",
@@ -1868,7 +1868,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/1292ebb0-3bc8-0134-6c19-00505686a51c",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 56806342,
+    id: 56806342,
     loc: "",
     uuid: "fc0cadc0-3b16-0134-2fe3-00505686a51c",
     photographer: "",
@@ -1891,7 +1891,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f9c8-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260279,
+    id: 1260279,
     loc: "",
     uuid: "ae87ea20-c645-012f-8c54-58d385a7bc34",
     photographer: "",
@@ -1914,7 +1914,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdce-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "59SCCDV",
+    id: "59SCCDV",
     loc: "",
     uuid: "c7021a60-c6ca-012f-cd71-58d385a7bc34",
     photographer: "Morse, George Daniels",
@@ -1937,7 +1937,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-1f56-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1216626,
+    id: 1216626,
     loc: "",
     uuid: "f9722f20-c6da-012f-6c1e-3c075448cc4b",
     photographer: "",
@@ -1960,7 +1960,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdc3-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "49SCCDV",
+    id: "49SCCDV",
     loc: "",
     uuid: "c30fbab0-c6ca-012f-305c-58d385a7bc34",
     photographer: "Bill, C.K.",
@@ -1983,7 +1983,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-fd15-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "03SCCAB",
+    id: "03SCCAB",
     loc: "",
     uuid: "071b57b0-c6e0-012f-a107-58d385a7bc34",
     photographer: "",
@@ -2006,7 +2006,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-fd21-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "16SCCAB",
+    id: "16SCCAB",
     loc: "",
     uuid: "0ce634c0-c6e0-012f-54b5-58d385a7bc34",
     photographer: "Benjamin, O.C.",
@@ -2029,7 +2029,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-fd2c-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "28SCCAB",
+    id: "28SCCAB",
     loc: "",
     uuid: "12bafc10-c6e0-012f-15a5-58d385a7bc34",
     photographer: "Stanton & Burdick",
@@ -2052,7 +2052,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-fd20-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "15SCCAB",
+    id: "15SCCAB",
     loc: "",
     uuid: "0c738550-c6e0-012f-192e-58d385a7bc34",
     photographer: "Columbian Galleries",
@@ -2075,7 +2075,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-1f5a-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1216630,
+    id: 1216630,
     loc: "",
     uuid: "05b81060-c6db-012f-61f5-3c075448cc4b",
     photographer: "",
@@ -2098,7 +2098,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-9dcf-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1231552,
+    id: 1231552,
     loc: "",
     uuid: "7d97fa10-c6b4-012f-f6f8-58d385a7bc34",
     photographer: "",
@@ -2121,7 +2121,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-1f59-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1216629,
+    id: 1216629,
     loc: "",
     uuid: "02aceb30-c6db-012f-1416-3c075448cc4b",
     photographer: "",
@@ -2145,7 +2145,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-1f58-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1216628,
+    id: 1216628,
     loc: "",
     uuid: "ff795420-c6da-012f-42fe-3c075448cc4b",
     photographer: "",
@@ -2169,7 +2169,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-1f57-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1216627,
+    id: 1216627,
     loc: "",
     uuid: "fc5b6230-c6da-012f-732c-3c075448cc4b",
     photographer: "",
@@ -2192,7 +2192,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdc4-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "50SCCDV",
+    id: "50SCCDV",
     loc: "",
     uuid: "c36352f0-c6ca-012f-be63-58d385a7bc34",
     photographer: "Coss & Leach",
@@ -2215,7 +2215,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-1f55-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1216625,
+    id: 1216625,
     loc: "",
     uuid: "f6801e90-c6da-012f-b27b-3c075448cc4b",
     photographer: "",
@@ -2238,7 +2238,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdc9-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "54SCCDV",
+    id: "54SCCDV",
     loc: "",
     uuid: "c50e9bc0-c6ca-012f-0fb3-58d385a7bc34",
     photographer: "Bogardus, A.",
@@ -2261,7 +2261,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdea-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "46SCCDV",
+    id: "46SCCDV",
     loc: "",
     uuid: "c1d0bf70-c6ca-012f-d041-58d385a7bc34",
     photographer: "Sims' Photograph Gallery",
@@ -2284,7 +2284,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdbf-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "69SCCDV",
+    id: "69SCCDV",
     loc: "",
     uuid: "cb759000-c6ca-012f-e6f0-58d385a7bc34",
     photographer: "Hennigar, George W.",
@@ -2307,7 +2307,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdc1-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "71SCCDV",
+    id: "71SCCDV",
     loc: "",
     uuid: "cc40d870-c6ca-012f-7e86-58d385a7bc34",
     photographer: "",
@@ -2330,7 +2330,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdc8-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "73SCCDV",
+    id: "73SCCDV",
     loc: "",
     uuid: "cd375800-c6ca-012f-26fc-58d385a7bc34",
     photographer: "Rice, M.P.",
@@ -2353,7 +2353,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdc5-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "51SCCDV",
+    id: "51SCCDV",
     loc: "",
     uuid: "c3d8dc10-c6ca-012f-aeff-58d385a7bc34",
     photographer: "Durgan, J.O.",
@@ -2376,7 +2376,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdec-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "48SCCDV",
+    id: "48SCCDV",
     loc: "",
     uuid: "c29dcc90-c6ca-012f-36cb-58d385a7bc34",
     photographer: "Gates, Thomas",
@@ -2399,7 +2399,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-a0f2-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1232152,
+    id: 1232152,
     loc: "",
     uuid: "888bf3f0-c6f5-012f-1b84-58d385a7bc34",
     photographer: "",
@@ -2422,7 +2422,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/6a412f90-0bd1-0134-3942-00505686a51c",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 56805729,
+    id: 56805729,
     loc: "",
     uuid: "0f680030-0bd1-0134-7981-00505686a51c",
     photographer: "",
@@ -2445,7 +2445,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/6b6df820-0bd1-0134-c00f-00505686a51c",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 56805731,
+    id: 56805731,
     loc: "",
     uuid: "3b294dc0-0bd1-0134-5af7-00505686a51c",
     photographer: "",
@@ -2468,7 +2468,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e2-08ba-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "35SCJA",
+    id: "35SCJA",
     loc: "",
     uuid: "81d2f9f0-c6cd-012f-c9c6-58d385a7bc34",
     photographer: "",
@@ -2491,7 +2491,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e2-fce1-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "09schaj",
+    id: "09schaj",
     loc: "",
     uuid: "d6ecc580-c634-012f-d5be-58d385a7bc34",
     photographer: "",
@@ -2514,7 +2514,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/82ce05c0-61eb-0132-17e2-58d385a7bbd0",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 5192959,
+    id: 5192959,
     loc: "",
     uuid: "c4d75af0-5c98-0132-a65c-58d385a7b928",
     photographer: "Hansen, Austin",
@@ -2537,7 +2537,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/db5d1860-61eb-0132-17b4-58d385a7bbd0",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 5192961,
+    id: 5192961,
     loc: "",
     uuid: "a1bf7710-5c9e-0132-5654-58d385a7bbd0",
     photographer: "Hansen, Austin",
@@ -2560,7 +2560,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-02f2-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1160078,
+    id: 1160078,
     loc: "",
     uuid: "881dba70-c6f5-012f-7306-58d385a7bc34",
     photographer: "",
@@ -2583,7 +2583,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cde6-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "42SCCDV",
+    id: "42SCCDV",
     loc: "",
     uuid: "bfdb90e0-c6ca-012f-4327-58d385a7bc34",
     photographer: "H.D. Garnes & Co.",
@@ -2606,7 +2606,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/63d86849-25b8-d19b-e040-e00a18066120",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1694531,
+    id: 1694531,
     loc: "",
     uuid: "7e9f1900-c5f2-012f-49be-58d385a7bc34",
     photographer: "",
@@ -2629,7 +2629,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8da-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260037,
+    id: 1260037,
     loc: "",
     uuid: "cd7e8a90-c612-012f-eb36-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -2652,7 +2652,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f975-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260196,
+    id: 1260196,
     loc: "",
     uuid: "bc350db0-c612-012f-2d1d-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -2675,7 +2675,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8d7-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260036,
+    id: 1260036,
     loc: "",
     uuid: "ccf7e050-c612-012f-104d-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -2698,7 +2698,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e3-d86c-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1615149,
+    id: 1615149,
     loc: "",
     uuid: "4e583df0-c6ed-012f-8e1d-3c075448cc4b",
     photographer: "Lange, Dorothea",
@@ -2721,7 +2721,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f909-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260092,
+    id: 1260092,
     loc: "",
     uuid: "9ffe6860-c612-012f-f15f-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -2744,7 +2744,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f912-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260101,
+    id: 1260101,
     loc: "",
     uuid: "be1ef050-c612-012f-4df8-58d385a7bc34",
     photographer: "Collier, John",
@@ -2767,7 +2767,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8d6-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260025,
+    id: 1260025,
     loc: "",
     uuid: "c7368bd0-c612-012f-d278-58d385a7bc34",
     photographer: "Rothstein, Arthur",
@@ -2790,7 +2790,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8c3-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260031,
+    id: 1260031,
     loc: "",
     uuid: "caa2e390-c612-012f-1671-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -2813,7 +2813,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa11-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260348,
+    id: 1260348,
     loc: "",
     uuid: "933a8b50-c645-012f-b18a-58d385a7bc34",
     photographer: "",
@@ -2836,7 +2836,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa12-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260349,
+    id: 1260349,
     loc: "",
     uuid: "93913a90-c645-012f-68e4-58d385a7bc34",
     photographer: "",
@@ -2859,7 +2859,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa17-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260353,
+    id: 1260353,
     loc: "",
     uuid: "9568c630-c645-012f-2b09-58d385a7bc34",
     photographer: "",
@@ -2882,7 +2882,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f967-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260180,
+    id: 1260180,
     loc: "",
     uuid: "e981a9e0-c612-012f-d686-58d385a7bc34",
     photographer: "Lee, Russell",
@@ -2905,7 +2905,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-816c-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1211907,
+    id: 1211907,
     loc: "",
     uuid: "c5164790-c612-012f-9dd4-58d385a7bc34",
     photographer: "Lange, Dorothea",
@@ -2928,7 +2928,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8d3-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260054,
+    id: 1260054,
     loc: "",
     uuid: "d7d11520-c612-012f-c7fb-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -2951,7 +2951,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-7c20-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1215877,
+    id: 1215877,
     loc: "",
     uuid: "3cd72a30-c6cc-012f-9c3e-58d385a7bc34",
     photographer: "",
@@ -2974,7 +2974,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-1a14-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1168435,
+    id: 1168435,
     loc: "",
     uuid: "3676f200-c6cc-012f-9d59-58d385a7bc34",
     photographer: "",
@@ -2997,7 +2997,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-a95f-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1234612,
+    id: 1234612,
     loc: "",
     uuid: "4b9c67b0-c62b-012f-f88d-58d385a7bc34",
     photographer: "",
@@ -3020,7 +3020,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-a95e-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1234611,
+    id: 1234611,
     loc: "",
     uuid: "4b4ce8c0-c62b-012f-fb10-58d385a7bc34",
     photographer: "",
@@ -3043,7 +3043,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e3-d86b-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1615148,
+    id: 1615148,
     loc: "",
     uuid: "4a979490-c6ed-012f-b5c1-3c075448cc4b",
     photographer: "Lange, Dorothea",
@@ -3066,7 +3066,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fa16-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260352,
+    id: 1260352,
     loc: "",
     uuid: "95016b80-c645-012f-d006-58d385a7bc34",
     photographer: "",
@@ -3089,7 +3089,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e2-fce2-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "08schaj",
+    id: "08schaj",
     loc: "",
     uuid: "d72abc60-c634-012f-4c27-58d385a7bc34",
     photographer: "",
@@ -3112,7 +3112,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-a95c-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1234610,
+    id: 1234610,
     loc: "",
     uuid: "4b123220-c62b-012f-9696-58d385a7bc34",
     photographer: "",
@@ -3135,7 +3135,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-8170-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1211911,
+    id: 1211911,
     loc: "",
     uuid: "b64f6860-c612-012f-a528-58d385a7bc34",
     photographer: "Lee, Russell",
@@ -3158,7 +3158,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47de-8719-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1212132,
+    id: 1212132,
     loc: "",
     uuid: "b264ad50-c612-012f-b74a-58d385a7bc34",
     photographer: "Lee, Russell",
@@ -3181,7 +3181,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8a7-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260007,
+    id: 1260007,
     loc: "",
     uuid: "8156d3b0-c612-012f-1cac-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -3204,7 +3204,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8d1-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260053,
+    id: 1260053,
     loc: "",
     uuid: "d73af060-c612-012f-d18d-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -3227,7 +3227,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8cd-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260049,
+    id: 1260049,
     loc: "",
     uuid: "d44d72e0-c612-012f-5226-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -3250,7 +3250,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f973-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260195,
+    id: 1260195,
     loc: "",
     uuid: "bba57800-c612-012f-909d-58d385a7bc34",
     photographer: "Wolcott, Marion Post",
@@ -3274,7 +3274,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8ff-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260078,
+    id: 1260078,
     loc: "",
     uuid: "fdff69f0-c612-012f-130c-58d385a7bc34",
     photographer: "Delano, Jack",
@@ -3297,7 +3297,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-fd14-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1261011,
+    id: 1261011,
     loc: "",
     uuid: "9d5a4ac0-c6b7-012f-27aa-58d385a7bc34",
     photographer: "",
@@ -3320,7 +3320,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f8e8-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260068,
+    id: 1260068,
     loc: "",
     uuid: "98492780-c612-012f-c1b4-58d385a7bc34",
     photographer: "Delano, Jack",
@@ -3343,7 +3343,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-a083-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1232075,
+    id: 1232075,
     loc: "",
     uuid: "040afdf0-c6bc-012f-30c3-58d385a7bc34",
     photographer: "",
@@ -3366,7 +3366,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47df-f89f-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: 1260006,
+    id: 1260006,
     loc: "",
     uuid: "834c4410-c612-012f-6318-58d385a7bc34",
     photographer: "Delano, Jack",
@@ -3389,7 +3389,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdeb-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "47SCCDV",
+    id: "47SCCDV",
     loc: "",
     uuid: "c22ebb50-c6ca-012f-d26c-58d385a7bc34",
     photographer: "Saurman, Thomas M.",
@@ -3412,7 +3412,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cde9-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "45SCCDV",
+    id: "45SCCDV",
     loc: "",
     uuid: "c1665da0-c6ca-012f-a4a4-58d385a7bc34",
     photographer: "Insley, H.A.",
@@ -3435,7 +3435,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cda9-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "15SCCDV",
+    id: "15SCCDV",
     loc: "",
     uuid: "b4beca60-c6ca-012f-0750-58d385a7bc34",
     photographer: "Richmond Photograph Co.",
@@ -3458,7 +3458,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdca-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "55SCCDV",
+    id: "55SCCDV",
     loc: "",
     uuid: "c56a6460-c6ca-012f-0397-58d385a7bc34",
     photographer: "Hunt, A.T.",
@@ -3481,7 +3481,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdcb-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "56SCCDV",
+    id: "56SCCDV",
     loc: "",
     uuid: "c5c96dd0-c6ca-012f-b0c4-58d385a7bc34",
     photographer: "Insley, H.A.",
@@ -3504,7 +3504,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdcf-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "60SCCDV",
+    id: "60SCCDV",
     loc: "",
     uuid: "c7643840-c6ca-012f-ba33-58d385a7bc34",
     photographer: "",
@@ -3527,7 +3527,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdcc-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "57SCCDV",
+    id: "57SCCDV",
     loc: "",
     uuid: "c6289100-c6ca-012f-27ce-58d385a7bc34",
     photographer: "Bean, L.V.",
@@ -3550,7 +3550,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e1-cdd6-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "74SCCDV",
+    id: "74SCCDV",
     loc: "",
     uuid: "cd974a20-c6ca-012f-8f70-58d385a7bc34",
     photographer: "Richmond Photograph Co.",
@@ -3574,7 +3574,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4de5-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439931,
+    id: 439931,
     loc: "",
     uuid: "3a5ee550-c609-012f-c9a9-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3598,7 +3598,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4ddb-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439922,
+    id: 439922,
     loc: "",
     uuid: "367c9c80-c609-012f-d64b-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3622,7 +3622,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dda-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439921,
+    id: 439921,
     loc: "",
     uuid: "36303590-c609-012f-ba24-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3646,7 +3646,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dd9-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439920,
+    id: 439920,
     loc: "",
     uuid: "35d48380-c609-012f-8bbc-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3670,7 +3670,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dd8-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439919,
+    id: 439919,
     loc: "",
     uuid: "35795990-c609-012f-723d-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3694,7 +3694,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dd7-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439918,
+    id: 439918,
     loc: "",
     uuid: "351384f0-c609-012f-f827-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3718,7 +3718,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4d42-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 464381,
+    id: 464381,
     loc: "",
     uuid: "e1f396e0-c608-012f-52b6-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3742,7 +3742,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4cc6-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 464471,
+    id: 464471,
     loc: "",
     uuid: "f895d2d0-c608-012f-a9b8-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3766,7 +3766,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4cc0-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 464465,
+    id: 464465,
     loc: "",
     uuid: "f71f6d30-c608-012f-bf53-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3789,7 +3789,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/87ac1d57-b1e6-9892-e040-e00a180672f0",
     collection: "Jerome Robbins Dance Division",
-    nypl: "psnypl_dan_1656",
+    id: "psnypl_dan_1656",
     loc: "",
     uuid: "1615a610-c5fe-012f-d8f1-58d385a7bc34",
     photographer: "Melton, Frederick",
@@ -3813,7 +3813,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/42a98400-fd5d-0135-4b24-4b2548c1d655",
     collection: "Billy Rose Theatre Division",
-    nypl: 57460725,
+    id: 57460725,
     loc: "",
     uuid: "4200bde0-fd5d-0135-f51d-391ea79cf2a1",
     photographer: "White Studios, New York",
@@ -3837,7 +3837,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/e88da080-e37d-0135-e39c-006b9fdee980",
     collection: "Billy Rose Theatre Division",
-    nypl: 57486035,
+    id: 57486035,
     loc: "",
     uuid: "e7c3f930-e37d-0135-a59e-371047bafc62",
     photographer: "Keystone Pictures, New York",
@@ -3861,7 +3861,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4de9-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439935,
+    id: 439935,
     loc: "",
     uuid: "3be28570-c609-012f-33b7-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3884,7 +3884,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/4b75e430-88d8-0134-9e9f-00505686a51c",
     collection: "Billy Rose Theatre Division",
-    nypl: 56930409,
+    id: 56930409,
     loc: "",
     uuid: "4ad60050-88d8-0134-283d-00505686a51c",
     photographer: "",
@@ -3907,7 +3907,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e2-fcdf-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "11schaj",
+    id: "11schaj",
     loc: "",
     uuid: "d663f1c0-c634-012f-a1c0-58d385a7bc34",
     photographer: "",
@@ -3931,7 +3931,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4df2-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439938,
+    id: 439938,
     loc: "",
     uuid: "34b51960-c609-012f-4cf6-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3955,7 +3955,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4ddf-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439926,
+    id: 439926,
     loc: "",
     uuid: "382adda0-c609-012f-1253-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -3979,7 +3979,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dde-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439925,
+    id: 439925,
     loc: "",
     uuid: "37a9f9b0-c609-012f-06a1-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4003,7 +4003,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4de7-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439933,
+    id: 439933,
     loc: "",
     uuid: "3b1b3810-c609-012f-a238-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4027,7 +4027,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4ddc-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439923,
+    id: 439923,
     loc: "",
     uuid: "36eb72b0-c609-012f-3ee4-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4050,7 +4050,7 @@ export let data = [
     permalink:
       "https://digitalcollections.nypl.org/items/510d47e2-fcd6-a3d9-e040-e00a18064a99",
     collection: "Schomburg Center for Research in Black Culture",
-    nypl: "02schaj",
+    id: "02schaj",
     loc: "",
     uuid: "d37aad60-c634-012f-40ea-58d385a7bc34",
     photographer: "",
@@ -4074,7 +4074,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4e06-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439957,
+    id: 439957,
     loc: "",
     uuid: "26a75480-c609-012f-74ba-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4098,7 +4098,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4e08-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439959,
+    id: 439959,
     loc: "",
     uuid: "2775c760-c609-012f-3442-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4122,7 +4122,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4e05-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439956,
+    id: 439956,
     loc: "",
     uuid: "264c2830-c609-012f-c6e2-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4146,7 +4146,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4e04-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439955,
+    id: 439955,
     loc: "",
     uuid: "25dd0c30-c609-012f-39ad-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4170,7 +4170,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4e03-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439954,
+    id: 439954,
     loc: "",
     uuid: "257bdc70-c609-012f-143e-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4194,7 +4194,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4e00-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439952,
+    id: 439952,
     loc: "",
     uuid: "244202c0-c609-012f-797d-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4218,7 +4218,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dff-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439951,
+    id: 439951,
     loc: "",
     uuid: "23d16060-c609-012f-bf3f-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4242,7 +4242,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dfd-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439949,
+    id: 439949,
     loc: "",
     uuid: "22f79880-c609-012f-2550-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4266,7 +4266,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dfe-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439950,
+    id: 439950,
     loc: "",
     uuid: "2372ded0-c609-012f-3602-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4290,7 +4290,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dfc-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439948,
+    id: 439948,
     loc: "",
     uuid: "22a69ad0-c609-012f-0b1f-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4314,7 +4314,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dfb-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439947,
+    id: 439947,
     loc: "",
     uuid: "2238de50-c609-012f-637e-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4338,7 +4338,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dfa-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439946,
+    id: 439946,
     loc: "",
     uuid: "21d2a5b0-c609-012f-5daa-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4362,7 +4362,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4df9-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439945,
+    id: 439945,
     loc: "",
     uuid: "21785d70-c609-012f-6346-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4386,7 +4386,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4df7-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439943,
+    id: 439943,
     loc: "",
     uuid: "20b44b10-c609-012f-6fd9-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4410,7 +4410,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4df6-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439942,
+    id: 439942,
     loc: "",
     uuid: "204d78e0-c609-012f-47c7-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4434,7 +4434,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4df5-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439941,
+    id: 439941,
     loc: "",
     uuid: "1ff3cb40-c609-012f-b650-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4458,7 +4458,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4deb-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439937,
+    id: 439937,
     loc: "",
     uuid: "3cb810c0-c609-012f-229e-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
@@ -4482,7 +4482,7 @@ export let data = [
       "https://digitalcollections.nypl.org/items/510d47d9-4dea-a3d9-e040-e00a18064a99",
     collection:
       "The Miriam and Ira D. Wallach Divison of Art, Prints and Photographs",
-    nypl: 439936,
+    id: 439936,
     loc: "",
     uuid: "3c584b40-c609-012f-1df5-58d385a7bc34",
     photographer: "Hine, Lewis Wickes",
