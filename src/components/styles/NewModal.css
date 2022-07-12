@@ -1,6 +1,6 @@
 .modal {
   background: #fad7a0;
-  max-height: 90vh;
+  max-height: 88vh;
 
   position: absolute;
   top: 50%;
@@ -89,10 +89,6 @@
   border-radius: 1rem;
 }
 
-.container {
-  padding: 2px 16px;
-}
-
 .bottom-left {
   position: absolute;
   bottom: 0px;
@@ -137,16 +133,16 @@
 .modal-content .image-quote {
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 .modal-content .image-quote .modal-left {
-  max-height: 75vh;
+  max-height: 70vh;
   display: block;
   margin: auto;
   position: relative;
 }
 .modal-content .image-quote .modal-left img {
-  max-height: 75vh;
+  max-height: 70vh;
 
   display: block;
   margin: auto;
@@ -156,7 +152,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  padding: 25px;
+  padding: 1.7rem;
 }
 .modal-content .image-quote .modal-right .quote {
   margin: auto;
@@ -179,10 +175,6 @@
 .modal-content .info a,
 .modal-content .info li {
   color: rgba(20, 20, 20, 0.7);
-}
-.user-match-container {
-  position: relative;
-  padding-top: 22px;
 }
 
 .info {
@@ -223,6 +215,7 @@
   height: 2rem;
   width: 2rem;
   text-align: center;
+  cursor: pointer;
 }
 
 .item p {

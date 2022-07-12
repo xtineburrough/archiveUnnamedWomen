@@ -11,13 +11,10 @@ import Home from "./components/Home";
 
 // Importing Data under the name "BasicData"
 import { data as BasicData } from "./components/Collections/BasicData";
-import { data as FoodData } from "./components/Collections/FoodData";
-import { data as CarData } from "./components/Collections/CarData";
-import { data as NEW_DATA_NAME } from "./components/Collections/NEW_DATA_NAME";
 
 // Quote Data
 import { quoteData as BasicQuote } from "./components/Quotes/BasicQuote";
-import { quoteData as NewQuote } from "./components/Quotes/NewQuote";
+
 // THIS IS WHERE THE "important stuff" STARTS
 // Navigation is Loaded from here
 // Main is loaded from here

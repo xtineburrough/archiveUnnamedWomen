@@ -46,6 +46,7 @@ nav {
   color: rgba(149, 147, 145, 255);
   font-size: 1.2rem;
   font-weight: 500;
+  cursor: pointer;
 }
 
 /* Since we'll have the "ul li" "float:left"

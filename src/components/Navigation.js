@@ -3,7 +3,7 @@ import "./styles/Navigation.css";
 export default function Navigation({ listOfCollections, changeCollection }) {
   return (
     <nav>
-      <div id="logo">
+      <div id="logo" onClick={() => changeCollection("Home")}>
         An Archive of <span style={{ color: "white" }}>Unnamed</span> Women
       </div>
 
