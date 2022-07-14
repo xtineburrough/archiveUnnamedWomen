@@ -11,12 +11,14 @@ export default function NewModal({
   quoteList,
   collectionName,
   idName,
+  currentArtistType,
 }) {
   // States
+  // quote is the name of the div id and class relating to styles and the text
   const [open, setOpen] = useState(false);
   const [description, setDescription] = useState("N/A");
   const [location, setLocation] = useState("N/A");
-  const [photographer, setPhotographer] = useState("N/A");
+  const [artist, setArtist] = useState("N/A");
   const [year, setYear] = useState("N/A");
   const [id, setId] = useState("N/A");
   const [quote, setQuote] = useState("");
@@ -27,13 +29,22 @@ export default function NewModal({
 
   const handleOpen = (itemData) => {
     setOpen(true);
-    setDescription(itemData.description);
-    setPhotographer(itemData.photographer);
-    setLocation(itemData.location);
-    setId(itemData.id);
-    setYear(itemData.year);
+    setDescription(setBlank(itemData.description));
+    setArtist(setBlank(itemData.artist));
+    setLocation(setBlank(itemData.location));
+    setId(setBlank(itemData.id));
+    setYear(setBlank(itemData.year));
     changeQuote();
   };
+
+  // Sets N/A
+  const setBlank = (word) => {
+    if (word == "") {
+      return "N/A";
+    }
+    return word;
+  };
+
   const handleClose = () => setOpen(false);
 
   return (
@@ -41,7 +52,7 @@ export default function NewModal({
       <img
         className="masonryImage"
         onClick={() => handleOpen(itemData)}
-        src={`./CollectionImages/${collectionName}/${itemData.id}.png`}
+        src={`./CollectionImages/${collectionName}/${itemData.id}.jpg`}
         style={{
           borderBottomLeftRadius: 4,
           borderBottomRightRadius: 4,
@@ -63,7 +74,7 @@ export default function NewModal({
               <div className="modal-left">
                 <img
                   id="modal-image"
-                  src={`./CollectionImages/${collectionName}/${itemData.id}.png`}
+                  src={`./CollectionImages/${collectionName}/${itemData.id}.jpg`}
                 />
               </div>
               <div className="modal-right">
@@ -106,8 +117,8 @@ export default function NewModal({
                         <p className="item__desc left">{location}</p>
                       </div>
                       <div className="item">
-                        <p className="item__desc--title">PHOTOGRAPHER</p>
-                        <p className="item__desc">{photographer}</p>
+                        <p className="item__desc--title">{currentArtistType}</p>
+                        <p className="item__desc">{artist}</p>
                       </div>
                       <div className="item">
                         <p className="item__desc--title ">YEAR</p>

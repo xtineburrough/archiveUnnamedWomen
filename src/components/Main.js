@@ -9,6 +9,7 @@ export default function Main({
   quoteList,
   collectionName,
   idName,
+  currentArtistType,
 }) {
   let showCollection = (currentCollection) => {
     if (currentCollection == "Home") {
@@ -17,10 +18,11 @@ export default function Main({
     }
     const colCopy = [...currentCollection];
     let content = [];
-    for (let i = 0; i < colCopy.length; i++) {
+
+    for (let i = 0; i < currentCollection.length; i++) {
       const randomNum = Math.floor(Math.random() * colCopy.length);
       const itemData = colCopy[randomNum];
-
+      colCopy.splice(randomNum, 1);
       content.push(
         <div key={itemData.id}>
           <NewModal
@@ -29,24 +31,12 @@ export default function Main({
             quoteList={quoteList}
             collectionName={collectionName}
             idName={idName}
+            currentArtistType={currentArtistType}
           />
         </div>
       );
-      colCopy.splice(randomNum, 1);
     }
-    currentCollection.map((itemData, index) =>
-      content.push(
-        <div key={index}>
-          <NewModal
-            className="modalPrint"
-            itemData={itemData}
-            quoteList={quoteList}
-            collectionName={collectionName}
-            idName={idName}
-          />
-        </div>
-      )
-    );
+
     return content;
   };
 

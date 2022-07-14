@@ -11,9 +11,11 @@ import Home from "./components/Home";
 
 // Importing Data under the name "BasicData"
 import { data as BasicData } from "./components/Collections/BasicData";
+import { data as LOCLomax } from "./components/Collections/LOC-lomac";
 
 // Quote Data
 import { quoteData as BasicQuote } from "./components/Quotes/BasicQuote";
+import { quoteData as LomaxQuote } from "./components/Quotes/LomaxQuote";
 
 // THIS IS WHERE THE "important stuff" STARTS
 // Navigation is Loaded from here
@@ -25,13 +27,22 @@ function App() {
   // We insert the Navigation and Main Components
 
   // Make sure the name matches! Had to use an array because Array keeps order while objects does not
-  const listOfCollections = ["NYPL Edition"];
+  // saving this for when Lomax is ready  const listOfCollections = ["NYPL Edition", "LOC Lomax Edition"];
+  const listOfCollections = ["NYPL Edition", "LOC Lomax Edition"];
 
   const collection = {
     "NYPL Edition": {
       data: BasicData,
       quoteData: BasicQuote,
       idName: "NYPL",
+      artistType: "Photographer",
+    },
+    //PUT THIS BACK WHEN YOU ARE READY FOR LOMAX QUOTES
+    "LOC Lomax Edition": {
+      data: LOCLomax,
+      quoteData: LomaxQuote,
+      idName: "LOC Control #",
+      artistType: "Artist",
     },
   };
   // function to warn you if listOfCollections does not match collection
@@ -51,6 +62,7 @@ function App() {
   const [collectionName, setCollectionName] = useState("Home");
   const [quoteList, setQuoteList] = useState(BasicQuote);
   const [currentIdName, setCurrentIdName] = useState("ID");
+  const [currentArtistType, setCurrentArtistType] = useState("Artist");
 
   const [count, setCount] = useState(5);
 
@@ -63,23 +75,25 @@ function App() {
     }
     if (collection[collectionName]) {
       setCollectionName(collectionName);
+
       setCurrentCollection(collection[collectionName].data);
       setCurrentIdName(collection[collectionName].idName);
+      setCurrentArtistType(collection[collectionName].artistType);
+      setQuoteList(collection[collectionName].quoteData);
     } else {
       // Collection does not exist, set a default collection to show
       setCurrentCollection(BasicData);
       setCurrentIdName("ID");
-    }
-
-    if (collection[collectionName]) {
-      setQuoteList(collection[collectionName].quoteData);
-    } else {
+      setCurrentArtistType("Artist");
       // Quote does not exist, set a default quote list to show
       setQuoteList(BasicQuote);
     }
   };
   return (
     <div>
+      <div className="mobile">
+        <h1> Archive for Unnamed Women is a desktop experience</h1>
+      </div>
       <Navigation
         className="noPrint"
         listOfCollections={listOfCollections}
@@ -97,6 +111,7 @@ function App() {
             setCount={setCount}
             count={count}
             idName={currentIdName}
+            currentArtistType={currentArtistType}
           />
         )}
       </div>
