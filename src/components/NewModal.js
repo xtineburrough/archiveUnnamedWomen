@@ -136,7 +136,7 @@ export default function NewModal({
               </Grid>
               <Grid item xs={12}>
                 <a
-                  href="https://www.google.com/"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSf-DY6IbATYtpLbiEGyKlLWlTRdJL9COXQfA0-BXGC1hYcHRw/viewform?pli=1"
                   target="_blank"
                   className="button"
                 >
