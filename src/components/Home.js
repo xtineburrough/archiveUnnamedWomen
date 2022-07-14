@@ -3,12 +3,10 @@ import "./styles/Home.css";
 export default function About() {
   return (
     <div className="background">
-      <div className="wrap title">
-        <h1>
-          Archive of <span style={{ color: "#3d3b3b" }}>Unnamed</span> Women
-        </h1>
-      </div>
       <div className="wrap">
+        <p id="visit">
+          Visit a collection from the pull-down menu in the upper right corner.
+        </p>
         <h1>About</h1>
         <p>
           <em>An Archive of Unnamed Women</em> is a speculative remix that
@@ -47,7 +45,7 @@ export default function About() {
           the faces of women from the past.{" "}
         </p>
 
-        <h2>Project Credits:</h2>
+        <h2>Project Credits</h2>
         <p>
           xtine burrough is a media artist who planted the first seeds for this
           project in a chapter of{" "}
@@ -84,11 +82,11 @@ export default function About() {
           the current version of the project (2022).{" "}
         </p>
 
-        <h2>Sponsors:</h2>
+        <h2>Sponsors</h2>
         <p>
           We appreciate the kind sponsorship of an artist microgrant from the
-          Nasher Sculpture Center (2019) and a UT Dallas aXh &#8220;Uncertain
-          Futures&#8221; grant (2022).
+          Nasher Sculpture Center in 2019 and a UT Dallas 2022 aXh
+          &#8220;Uncertain Futures&#8221; grant (2022).
         </p>
       </div>
     </div>

@@ -4,7 +4,7 @@ export let data = [
     collection: "Lomax Collection (451)",
     id: 2007660241,
     uuid: "ppmsc 00516 //hdl.loc.gov/loc.pnp/ppmsc.00516",
-    artist: "Lomax, Alan, 1915-2002, photographer",
+    artist: "Lomax, Alan",
     year: 1935,
     location: "Bahamas, Cat Island",
     description:
@@ -16,7 +16,7 @@ export let data = [
     collection: "Lomax Collection (451)",
     id: 2007660234,
     uuid: "ppmsc 00509 //hdl.loc.gov/loc.pnp/ppmsc.00509",
-    artist: "Lomax, Alan, 1915-2002, photographer",
+    artist: "Lomax, Alan",
     year: 1935,
     location: "Bahamas, Cat Island",
     description: "Woman with infant, Old Bight, Cat Island, Bahamas, July 1935",
@@ -27,7 +27,7 @@ export let data = [
     collection: "Lomax Collection (451)",
     id: 2007660236,
     uuid: "ppmsc 00511 //hdl.loc.gov/loc.pnp/ppmsc.00511",
-    artist: "Lomax, Alan, 1915-2002, photographer",
+    artist: "Lomax, Alan",
     year: 1935,
     location: "Bahamas, Cat Island",
     description:
@@ -39,7 +39,7 @@ export let data = [
     collection: "Lomax Collection (451)",
     id: 2007660219,
     uuid: "ppmsc 00494 //hdl.loc.gov/loc.pnp/ppmsc.00494",
-    artist: "Lomax, Alan, 1915-2002, photographer",
+    artist: "Lomax, Alan",
     year: 1935,
     location: "Bahamas, Cat Island",
     description: "Woman from Cat Island, Bahamas, July 1935",
@@ -50,7 +50,7 @@ export let data = [
     collection: "Lomax Collection (451)",
     id: 2007660232,
     uuid: "ppmsc 00507 //hdl.loc.gov/loc.pnp/ppmsc.00507",
-    artist: "Lomax, Alan, 1915-2002, photographer",
+    artist: "Lomax, Alan",
     year: 1935,
     location: "Bahamas, Cat Island",
     description:
@@ -66,7 +66,7 @@ export let data = [
     year: "1938-1950",
     location: "Asheville, North Carolina",
     description:
-      "Fiddling Bill Hensley, playing fiddle, and unidentified woman at the Mountain Music Festival, Asheville, North Carolina",
+      "Fiddling Bill Hensley, playing fiddle, and unidentified woman at the Mountain Music Festival, <br/> Asheville, North Carolina",
     imageLink: "https://www.loc.gov/item/2007660157/",
   },
 ];

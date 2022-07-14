@@ -93,7 +93,9 @@ export default function NewModal({
                 <Grid item xs={12}>
                   <div className="item">
                     <p className="item__desc--title">DESCRIPTION</p>
-                    <p className="item__desc">{description}</p>
+                    <p className="item__desc">
+                      {description.split("<br/>").join("\n")}
+                    </p>
                   </div>
                   <Grid
                     item
