@@ -28,7 +28,7 @@ function App() {
 
   // Make sure the name matches! Had to use an array because Array keeps order while objects does not
   // saving this for when Lomax is ready  const listOfCollections = ["NYPL Edition", "LOC Lomax Edition"];
-  const listOfCollections = ["NYPL Edition"];
+  const listOfCollections = ["NYPL Edition", "LOC Lomax Edition"];
 
   const collection = {
     "NYPL Edition": {
@@ -38,12 +38,12 @@ function App() {
       artistType: "Photographer",
     },
     //PUT THIS BACK WHEN YOU ARE READY FOR LOMAX QUOTES
-    // "LOC Lomax Edition": {
-    //   data: LOCLomax,
-    //   quoteData: LomaxQuote,
-    //   idName: "LOC Control #",
-    //   artistType: "Artist",
-    // },
+    "LOC Lomax Edition": {
+      data: LOCLomax,
+      quoteData: LomaxQuote,
+      idName: "LOC Control #",
+      artistType: "Artist",
+    },
   };
   // function to warn you if listOfCollections does not match collection
   listOfCollections.map((collectionName) => {
