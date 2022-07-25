@@ -5,7 +5,7 @@ export default function About() {
     <div className="background">
       <div className="wrap">
         <p id="visit">
-           Visit an edition of this project by choosing a collection from the pull-down menu in the upper right corner.
+           View an edition of this project by choosing a collection from the pull-down menu in the upper right corner.
         </p>
         <h1>About</h1>
         <p>
