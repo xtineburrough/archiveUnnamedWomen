@@ -35,7 +35,7 @@ export default function About() {
 	
 	<div className="type">
 <h2>Project Credits</h2>
- <p>xtine burrough is a media artist who planted the first seeds for this project in a chapter of<em>Foundations of Digital Art and Design.</em>She oversaw the design and development of the digital project and collaborated with Sabrina Jian Starnaman on the format and direction of workshops they deliver together.</p>
+ <p>xtine burrough is a media artist who planted the first seeds for this project in a chapter of <em>Foundations of Digital Art and Design.</em> She oversaw the design and development of the digital project and collaborated with Sabrina Jian Starnaman on the format and direction of workshops they deliver together.</p>
 	  
 <p>Sabrina Jian Starnaman is a literature professor and a Buddhist Chaplain. She oversaw the development of the database of literary quotes that appear in the NYPL edition, assisted in quilting, and co-leads workshops. </p>
 	  
