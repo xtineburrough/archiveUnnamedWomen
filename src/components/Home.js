@@ -6,13 +6,13 @@ export default function About() {
   
        <div className="type">
 		<h2>An Archive of Unnamed Women</h2>
-			<p><em>An Archive of Unnamed Women</em>is a speculative remix that recovers photographs of unidentified women in digital photography collections. This project highlights a critical discussion about gendered power relations in archived visual materials that are saved as part of a digital object&#8217;s metadata. Choose a collection to view from the All Collections pull-down menu.
+			<p><em>An Archive of Unnamed Women</em> is a speculative remix that recovers photographs of unidentified women in digital photography collections. This project highlights a critical discussion about gendered power relations in archived visual materials that are saved as part of a digital object&#8217;s metadata. Choose a collection to view from the All Collections pull-down menu.
 			</p>
 	</div>
 	
 
 		<div className="type">
-			<p>Visitors who search<em>An Archive of Unnamed Women</em>are presented with their photographs and, upon clicking for more information, a juxtaposed description drawn from a parallel collection of women&#8217;s writing about women.</p>
+			<p>Visitors who search <em>An Archive of Unnamed Women</em> are presented with their photographs and, upon clicking for more information, a juxtaposed description drawn from a parallel collection of women&#8217;s writing about women.</p>
 		</div>		
 				
 	<div className="type">
@@ -20,7 +20,7 @@ export default function About() {
 	</div>
 	<div className="type">			
       <h2>NYPL and Other Collections Coming Soon</h2>
-      <p>First initiated with the New York Public Library digital collection, including photographs archived in the Schomburg Center for Research in Black Culture, this project has been supported at The University of Texas at Dallas for an edition with the Comer Collection.</p>
+      <p>First initiated with the New York Public Library digital collection, including photographs archived in the Schomburg Center for Research in Black Culture, this project has been supported at The University of Texas at Dallas for an upcoming edition with the Comer Collection.</p>
 	</div>
 
 	<div className="type">
