@@ -3,7 +3,7 @@ import "./styles/Home.css";
 export default function About() {
   return (
     <div className="background">
-      <div className="wrap">
+  
         <p id="visit">
           View an edition of this project by choosing a collection from the pull-down menu in the upper right corner.
         </p>
@@ -54,7 +54,7 @@ export default function About() {
 <h2>Sponsors</h2>
  <p>We appreciate the kind sponsorship of a 2019 artist microgrant from the Nasher Sculpture Center and a 2022 UT Dallas aXh &#8220;Uncertain Futures&#8221; grant.	  
 	  </p>
-		</div>
+
       </div>
     </div>
   );
