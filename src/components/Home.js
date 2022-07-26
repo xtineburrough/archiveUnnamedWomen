@@ -4,13 +4,9 @@ export default function About() {
   return (
     <div className="background">
   
-        <p id="visit">
-          View an edition of this project by choosing a collection from the pull-down menu in the upper right corner.
-        </p>
        <div className="type">
 		<h2>An Archive of Unnamed Women</h2>
-			
-			<p><em>An Archive of Unnamed Women</em>is a speculative remix that recovers photographs of unidentified women in digital photography collections. This project highlights a critical discussion about gendered power relations in archived visual materials that are saved as part of a digital object&#8217;s metadata.
+			<p><em>An Archive of Unnamed Women</em>is a speculative remix that recovers photographs of unidentified women in digital photography collections. This project highlights a critical discussion about gendered power relations in archived visual materials that are saved as part of a digital object&#8217;s metadata. Choose a collection to view from the All Collections pull-down menu.
 			</p>
 	</div>
 	
