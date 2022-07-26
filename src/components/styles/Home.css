@@ -2,9 +2,9 @@
   padding: 0;
   margin: 0;
   background-image: url("./background.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: top;
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 .wrap {
@@ -13,7 +13,6 @@
   margin: 0 auto;
   background-color: rgba(230, 215, 194, 0.9);
   padding: 2rem;
-
   font-family: "Volkhov", serif;
 }
 .wrap p {
@@ -23,11 +22,11 @@
   margin-bottom: 1rem;
   text-align: center;
   font-size: 1.2rem;
-  font-family: Helvetica, Arial, "sans-serif";
+  font-family: "Volkhov", Helvetica, Arial, "sans-serif";
 }
 h1,
 h2 {
-  font-family: Helvetica, Arial, "sans-serif";
+  font-family: "Voolkhov", Helvetica, Arial, "sans-serif";
 }
 .type {
 	background: #FFF9EF;
