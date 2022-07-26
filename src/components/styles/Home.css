@@ -29,3 +29,16 @@ h1,
 h2 {
   font-family: Helvetica, Arial, "sans-serif";
 }
+.type {
+	background: #FFF9EF;
+	border-radius: 3px;
+	color: rgba(34,33,33,1.00);
+	margin: 2rem auto;
+	padding: 15px 20px;
+	text-align: center;
+	width: 48%;
+}
+.responsive {
+  width: 90%;
+  height: auto;
+}
