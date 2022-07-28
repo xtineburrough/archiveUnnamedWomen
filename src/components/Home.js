@@ -16,7 +16,7 @@ export default function About() {
 		</div>		
 				
 	<div className="type">
-	<img src="http://missconceptions.net/unnamed-women/img/nypl-sample.png" className="responsive" alt="sample" />
+	<img src="http://www.missconceptions.net/unnamed-women/img/nypl-sample.png" className="responsive" alt="sample" />
 	</div>
 	<div className="type">			
       <h2>NYPL and Other Collections Coming Soon</h2>
