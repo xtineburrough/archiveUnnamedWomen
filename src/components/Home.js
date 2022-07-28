@@ -37,7 +37,7 @@ export default function About() {
 <h2>Project Credits</h2>
  <p>xtine burrough is a media artist who planted the first seeds for this project in a chapter of <em>Foundations of Digital Art and Design.</em> She oversaw the design and development of the digital project and collaborated with Sabrina Jian Starnaman on the format and direction of workshops they deliver together.</p>
 	  
-<p>Sabrina Jian Starnaman is a literature professor and a Buddhist Chaplain. She oversaw the development of the database of literary quotes that appear in the NYPL edition, assisted in quilting, and co-leads workshops. </p>
+<p>Sabrina Jian Starnaman is a literature professor and a Buddhist chaplain. She oversaw the development of the database of literary quotes that appear in the NYPL edition, assisted in quilting, and co-leads workshops. </p>
 	  
  <p>Alyssa Yates is a UT Dallas Arts & Humanities alumni who culled the NYPL digital collection, one image at a time, to find the 422 images in our archive. She is also a master quilter. In addition to generating the dataset of unnamed women in the NYPL edition, she also directed the making of the quilt and assisted in gathering quotes.</p>
 
