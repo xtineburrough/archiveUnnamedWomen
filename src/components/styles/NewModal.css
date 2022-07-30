@@ -160,11 +160,12 @@
   margin: auto;
   width: 95%;
 }
+*////////////////// Change Font Size for Quotes Here */
 .modal-content .image-quote .modal-right .quote h2 {
   margin: auto;
   padding: 1.1rem;
   line-height: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.45rem;
   width: 90%;
   color: white;
   transform: rotate(-3deg);
